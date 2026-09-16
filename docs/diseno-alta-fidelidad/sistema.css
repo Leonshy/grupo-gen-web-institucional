@@ -20,7 +20,7 @@ body{
   margin:0;
   background:var(--paper);
   color:var(--ink);
-  font-family:"Inter",system-ui,sans-serif;
+  font-family:"Hanken Grotesk",system-ui,sans-serif;
   font-size:16px;
   line-height:1.6;
   -webkit-font-smoothing:antialiased;
@@ -250,7 +250,7 @@ a.card:hover, a.card:focus-visible{ transform:translateY(-3px); box-shadow:var(-
 .field label{ font-size:0.88rem; font-weight:600; color:var(--ink); }
 .field input, .field textarea{
   background:var(--paper); border:1.5px solid var(--line); border-radius:var(--radius-md);
-  padding:13px 14px; font-family:"Inter",sans-serif; font-size:0.98rem; color:var(--ink);
+  padding:13px 14px; font-family:"Hanken Grotesk",sans-serif; font-size:0.98rem; color:var(--ink);
 }
 .field input:focus-visible, .field textarea:focus-visible{ outline:none; border-color:var(--green-deep); box-shadow:0 0 0 3px var(--green-soft); }
 .field textarea{ resize:vertical; min-height:130px; }

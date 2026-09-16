@@ -44,7 +44,12 @@ completa, y nunca compite consigo mismo en dos tonos distintos a la vez.
 | Rol | Fuente | Peso | Uso |
 |---|---|---|---|
 | Títulos / display | **Jost** | 600–800 | H1–H3, cifras destacadas, nombres de empresa/proyecto en tarjetas. |
-| Cuerpo | **Inter** | 400–500 | Párrafos, descripciones, formularios, navegación. |
+| Cuerpo | **Hanken Grotesk** | 400–500 | Párrafos, descripciones, formularios, navegación. |
+
+**Por qué Hanken Grotesk y no PG Grotesque:** PG Grotesque (Paulo Goode Type Foundry) también es
+**paga**, mismo problema que Moderna Sans. Hanken Grotesk es una grotesca cálida y neutra gratuita
+en Google Fonts, de carácter cercano — mismo criterio de reemplazo reversible: si el cliente
+consigue la licencia de PG Grotesque, se cambia acá sin tocar el resto del sistema.
 
 **Por qué Jost y no Manrope:** el wordmark "GEN" del logo está compuesto en **Moderna Sans**
 (Latinotype) — es una fuente **paga**, no está en Google Fonts ni es de uso libre; usarla sin
