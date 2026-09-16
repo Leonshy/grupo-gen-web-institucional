@@ -46,25 +46,32 @@
 | 22 | Ficha de proyecto | Etanol Chaco paraguayo (Chovoreca) | 108 | 120–200 | ⚠️ Estado y fecha pendientes |
 | 23 | Ficha de proyecto | Puerto Bahía Negra | 78 | 120–200 | ⚠️ Por debajo del techo — falta insumo |
 | 24 | Ficha de proyecto | Puerto Villeta | 70 | 120–200 | ⚠️ Por debajo del techo — falta insumo |
-| 25 | Ficha de proyecto | El Terruño | 82 | 120–200 | ⚠️ Por debajo del techo — falta insumo |
+| 25 | Ficha de proyecto | El Terruño | 172 | 120–200 | 🆕 Reescrita con texto real del sitio actual |
 | 26 | Ficha de proyecto | Shopping Fernando de la Mora | 72 | 120–200 | ⚠️ Por debajo del techo — falta insumo |
 | 27 | Ficha de proyecto | Shopping San Nicolás | 45 | 120–200 | ⚠️ Muy por debajo — falta casi todo |
 | 28 | Ficha de proyecto | Depósito fiscal | 33 | 120–200 | ⚠️ Muy por debajo — falta casi todo |
-| 29 | Ficha de proyecto | Lotes Uruguay | 38 | 120–200 | ⚠️ Muy por debajo — falta casi todo |
-| 30 | Ficha de proyecto | Pueblo de Mar (Jaureguiberry) | 52 | 120–200 | ⚠️ Por debajo — a definir alcance vs. sitio satélite |
-| 31 | Ficha de proyecto | Distrito Lambaré | 40 | 120–200 | ⚠️ Muy por debajo — falta casi todo |
-| 32 | Ficha de proyecto | Unidad industrial Cerro Largo | 40 | 120–200 | ⚠️ Muy por debajo — falta casi todo |
+| 29 | Ficha de proyecto | Lotes Uruguay | 128 | 120–200 | 🆕 Reescrita con texto real del sitio actual |
+| 30 | Ficha de proyecto | Pueblo de Mar (Jaureguiberry) | 138 | 120–200 | 🆕 Reescrita con texto real del sitio actual |
+| 31 | Ficha de proyecto | Distrito Lambaré | 68 | 120–200 | ⚠️ Por debajo — falta tipo de desarrollo y estado |
+| 32 | Ficha de proyecto | Unidad industrial Cerro Largo | 158 | 120–200 | ✅ Completa — resuelta con texto real del sitio actual |
 | 33 | Ficha de proyecto | Forestación — Chaco paraguayo | 96 | 120–200 | ⚠️ Falta empresa operadora y estado |
 | 34 | Ficha de proyecto | Arrabio Paraguay | 45 | 120–200 | ⚠️ Borrador — Anexo B #12 pendiente |
 | 35 | Ficha de proyecto | Fábrica de hierros | 40 | 120–200 | ⚠️ Borrador — Anexo B #12 pendiente |
 | 36 | Contacto | Contacto | 55 | libre | ⚠️ Dirección UY pendiente (Anexo B #9) |
 | 37 | Novedades | Novedades (intro) | 25 | libre | ✅ No depende de insumo del cliente |
 
-**Lectura del semáforo:** 15 registros aprobados o nuevos y completos, 12 con contenido honesto
-pero por debajo del techo de palabras por falta de insumo (no por falta de trabajo), y 3 en borrador
+**Lectura del semáforo:** 19 registros aprobados o nuevos y completos, 8 con contenido honesto pero
+por debajo del techo de palabras por falta de insumo (no por falta de trabajo), y 3 en borrador
 condicional a que el cliente resuelva si la vertical Siderúrgica se publica. Ninguno bloquea el
 Hito 2: se aprueba el conjunto, y los `PENDIENTE` se completan cuando llega el insumo, sin romper
 la estructura ya aprobada.
+
+**Actualización 2026-09-16:** al extraer las imágenes del sitio actual (`grupo-gen.com`) apareció
+texto propio para varias fichas que el Anexo A del legajo solo había relevado por nombre. Cuatro
+fichas de Bienes raíces pasaron de "falta casi todo" a completas o casi completas con ese material:
+**El Terruño, Lotes Uruguay, Pueblo de Mar y Unidad industrial Cerro Largo** (ver `docs/assets-sitio-actual/INDEX.md`
+para la fuente exacta de cada dato). Ninguno de los números usados es sensible — son superficies,
+capacidades y cantidades de lotes, no costos ni precios (sigue aplicando R3 del legajo).
 
 ---
 
@@ -324,18 +331,25 @@ Puerto Bahía Negra.
 
 ### Bienes raíces
 
-**El Terruño (82 palabras)**
+**El Terruño (172 palabras — fuente: texto propio del sitio actual, no solo el Anexo A)**
 
 **Vertical:** Bienes raíces · **Ubicación:** Treinta y Tres, Tacuarembó y Melo, Uruguay ·
-**Estado:** *(sin confirmar por locación)*
+**Estado:** En comercialización (fecha de relevamiento sin confirmar, ver nota)
 
-El Terruño es una marca de fraccionamientos residenciales del grupo con desarrollos en Treinta y
-Tres, Tacuarembó y Melo, Uruguay. Forma parte de la estrategia de bienes raíces del interior
-uruguayo, en paralelo a los desarrollos costeros como Jardines de Acuario.
+El Terruño es una marca de fraccionamientos residenciales del grupo, con tres desarrollos activos
+en el interior uruguayo, cada uno en una avenida o ruta principal de su ciudad y pensado para
+sumar terrenos de uso libre —residencial, comercial o institucional— a barrios en expansión.
 
-**PENDIENTE:** el material actual incluye más de diez PDFs de planos y archivos KMZ por
-fraccionamiento, pero falta una descripción narrativa unificada — superficie total, cantidad de
-lotes por locación y estado comercial — para completar la ficha.
+| Fraccionamiento | Superficie total | Lote típico | Terrenos a la venta | Espacio verde |
+|---|---|---|---|---|
+| Treinta y Tres | +120.000 m² | 300 m² (12 × 25 m) | 185 | 12.000 m² |
+| Tacuarembó | +120.000 m² | 300 m² (10 × 30 m) | 400 | 3 plazas + rambla sobre el Arroyo Sandú |
+| Melo | +56.600 m² | 400–650 m² (13 × 30–45 m) | 110 | 2 plazas |
+
+**PENDIENTE:** confirmar si esta oferta (185 + 400 + 110 = 695 terrenos) sigue vigente o cuántos ya
+se vendieron — el texto original no tiene fecha, mismo riesgo de contenido desactualizado que
+señala el legajo §2. Faltan también las fotos de las tres galerías propias (hoy embebidas por
+`iframe`, no se pudieron extraer, ver `05-lista-de-imagenes.md`).
 
 ---
 
@@ -376,53 +390,81 @@ logística.
 
 ---
 
-**Lotes Uruguay (38 palabras)**
+**Lotes Uruguay (128 palabras — fuente: texto propio del sitio actual)**
 
-**Vertical:** Bienes raíces · **Ubicación:** Uruguay (localizaciones sin especificar) · **Estado:**
-*(sin confirmar)*
+**Vertical:** Bienes raíces · **Ubicación:** Montevideo y Canelones, Uruguay · **Estado:**
+En comercialización (fecha sin confirmar)
 
-El grupo comercializa lotes en distintas localizaciones de Uruguay, dentro de su cartera de bienes
-raíces.
+El grupo comercializa cuatro lotes en distintas localizaciones de Uruguay, fuera de los
+fraccionamientos de marca propia (El Terruño, Jardines de Acuario):
 
-**PENDIENTE:** falta identificar las localizaciones específicas, cantidad de lotes disponibles y
-estado comercial de cada una.
+| Ubicación | Superficie |
+|---|---|
+| Montevideo Rural | 43 ha 4.742 m² |
+| Montevideo Rural | 11 ha |
+| Ciudad de la Costa — suburbano, Av. Calcagno | 2 ha 3.813 m² |
+| Canelones Rural | 21 ha 9.817 m² y 7 ha 2.250 m² |
 
----
+Cada lote tiene su propia ubicación en KMZ para Google Earth; el de Montevideo Rural de 11 ha es el
+único con foto y plano propios.
 
-**Pueblo de Mar — Jaureguiberry (52 palabras)**
-
-**Vertical:** Bienes raíces · **Ubicación:** Jaureguiberry, Uruguay · **Estado:** *(sin
-confirmar)*
-
-Pueblo de Mar es un desarrollo residencial del grupo en Jaureguiberry, sobre la costa uruguaya, con
-sitio propio en `pueblodemar.uy`.
-
-**PENDIENTE:** falta descripción del proyecto —cantidad de lotes, amenities, estado de avance— más
-allá del enlace al sitio satélite; a definir si la ficha institucional resume ese contenido o solo
-lo enlaza (ecosistema de sitios satélite, legajo §2).
+**PENDIENTE:** confirmar si los cuatro siguen disponibles a la venta — mismo riesgo de contenido
+desactualizado que El Terruño, sin fecha de referencia en el original.
 
 ---
 
-**Distrito Lambaré (40 palabras)**
+**Pueblo de Mar — Jaureguiberry (138 palabras — fuente: texto propio del sitio actual)**
+
+**Vertical:** Bienes raíces · **Ubicación:** Jaureguiberry, Uruguay · **Estado:** En desarrollo
+
+Pueblo de Mar es un complejo turístico y de viviendas unifamiliares sobre un predio de 20
+hectáreas, con 180 metros de frente de playa y bajada directa al mar para todos los propietarios.
+El proyecto se divide en 166 lotes en propiedad horizontal, con solares de 500 m² en promedio y
+todas las instalaciones subterráneas resueltas.
+
+La arquitectura y los jardines están regulados por comisiones propias del desarrollo, para sostener
+un estándar de construcción uniforme en armonía con el entorno natural. El acceso es controlado las
+24 horas sobre la Ruta Interbalnearia.
+
+**Sitio propio:** `pueblodemar.uy` (Facebook e Instagram activos).
+
+**PENDIENTE:** confirmar estado de avance actual y cuántos de los 166 lotes siguen disponibles;
+faltan también las fotos propias del proyecto, hoy embebidas por `iframe` sin poder extraerse (ver
+`05-lista-de-imagenes.md`).
+
+---
+
+**Distrito Lambaré (68 palabras — fuente: texto propio del sitio actual)**
 
 **Vertical:** Bienes raíces · **Ubicación:** Lambaré, Paraguay · **Estado:** *(sin confirmar)*
 
-Distrito Lambaré es un desarrollo del grupo en Paraguay, dentro de la cartera de bienes raíces.
+Distrito Lambaré es un desarrollo del grupo en Paraguay, con una superficie de 1 hectárea,
+5.418 m² y 5.603 cm², lindero al ensanche de la Avenida Presidente Juan Domingo Perón.
 
-**PENDIENTE:** el relevamiento actual no identifica el tipo de desarrollo (residencial, comercial o
-industrial), superficie ni estado.
+**PENDIENTE:** el tipo de desarrollo (residencial, comercial o industrial) y su estado siguen sin
+confirmar — el sitio actual solo trae ubicación y superficie, sin descripción del proyecto.
 
 ---
 
-**Unidad industrial — Cerro Largo (40 palabras)**
+**Unidad industrial — Cerro Largo (158 palabras — fuente: texto propio del sitio actual, resuelta
+por completo)**
 
-**Vertical:** Bienes raíces · **Ubicación:** Cerro Largo, Uruguay · **Estado:** *(sin confirmar)*
+**Vertical:** Bienes raíces · **Ubicación:** Paraje Tres Islas, Cerro Largo, Uruguay ·
+**Estado:** En operación
 
-El grupo cuenta con una unidad industrial en el departamento de Cerro Largo, Uruguay, dentro de su
-cartera de bienes raíces.
+Ubicado en el paraje Tres Islas, a 65 km de Melo y 365 km de Montevideo, es un complejo
+agroindustrial de 8 hectáreas dedicado al recibo, secado y almacenaje de cereales y oleaginosos.
+Cuenta con tres secadores de 170 toneladas de capacidad estática, que secan en promedio 510
+toneladas diarias, y tres tolvas de recibo con prelimpieza propia. La capacidad de almacenaje es de
+12.000 toneladas (10.500 en silos y 1.500 en galpones).
 
-**PENDIENTE:** falta el uso o rubro de la unidad, superficie cubierta y estado (operativa, en
-construcción o disponible).
+El complejo integra además una industria arrocera de 3 toneladas por hora, con descascarado,
+pulido de 4 pasos y separación de grano entero y quebrado, más 1.500 toneladas de capacidad para
+productos terminados, un laboratorio de análisis de grano con balanza para camiones, y vivienda
+para el personal de gerencia.
+
+*(Único proyecto de bienes raíces que llegó completo al techo de palabras con el material del
+sitio actual — no requiere insumo adicional del cliente para su ficha.)*
 
 ---
 
@@ -500,10 +542,11 @@ es visible si hay al menos una publicación activa (regla de visibilidad, mapa d
 1. **Ningún registro del Anexo A queda huérfano.** Los ~25 proyectos y las 9 verticales (Agro
    excluida por decisión ya tomada, Siderúrgica en borrador condicional) tienen al menos un
    párrafo de copy o una nota de qué falta para tenerlo.
-2. **El criterio de honestidad se sostiene bajo volumen.** De 20 fichas de proyecto nuevas, 8
-   llegan al piso del techo (120+ palabras) y 12 quedan cortas porque el material de origen es
-   solo fotos o PDFs sin texto — no porque falte trabajo de copy. Esa lista corta **es** el pedido
-   de insumos al cliente, ítem por ítem, más preciso que el Anexo B genérico.
+2. **El criterio de honestidad se sostiene bajo volumen.** De 20 fichas de proyecto nuevas, 12
+   llegan al piso del techo (120+ palabras) — 4 de ellas gracias a texto real encontrado en el
+   sitio actual y no solo en el Anexo A — y 8 quedan cortas porque el material de origen es solo
+   fotos o PDFs sin texto — no porque falte trabajo de copy. Esa lista corta **es** el pedido de
+   insumos al cliente, ítem por ítem, más preciso que el Anexo B genérico.
 3. **La vertical Siderúrgica no se publica todavía.** Se redactó el borrador para que el cliente
    vea exactamente qué template la espera, pero el índice de inversiones del lanzamiento no la
    incluye hasta resolver el Anexo B ítem 12 — mismo tratamiento que ya se le da a Agro.
