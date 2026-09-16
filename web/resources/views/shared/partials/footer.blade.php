@@ -7,9 +7,10 @@
             <div
                 class="absolute bottom-0 left-1/2 -trandefault-x-1/2 w-full h-64 bg-linear-to-t from-primary/5 to-transparent blur-3xl -z-10"></div>
             <!-- Top Section: Logo -->
-            <div class="flex items-center gap-3 lg:mb-25 mb-7.5">
-                <span class="flex items-center justify-center bg-primary-1 text-black font-bold text-lg w-10 h-10">G</span>
-                <span class="text-white font-bold text-xl">GEN</span>
+            <div class="flex items-center lg:mb-25 mb-7.5">
+                <div class="inline-flex bg-white px-4 py-3">
+                    <img src="/images/marca/logo-gen.png" alt="Grupo GEN — Desarrollo & Inversión" class="h-10 w-auto">
+                </div>
             </div>
             <!-- Main Grid -->
             <div

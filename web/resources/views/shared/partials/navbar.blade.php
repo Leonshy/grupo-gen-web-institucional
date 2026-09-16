@@ -3,10 +3,8 @@
     <div class="nav-sticky navbar fixed inset-x-0 top-0 z-120 w-full bg-white border-b-2 border-primary-1 transition-all duration-300">
         <div class="container-full lg:py-6 md:py-5 py-2.5">
             <div class="flex items-center gap-25">
-                <a class="flex items-center gap-2.5 me-auto" href="{{ url('/') }}">
-                    {{-- Placeholder hasta recibir el logo vectorial del cliente --}}
-                    <span class="flex items-center justify-center bg-primary-1 text-black font-bold text-lg w-10 h-10">G</span>
-                    <span class="text-default-900 font-bold text-xl">GEN</span>
+                <a class="flex items-center me-auto" href="{{ url('/') }}">
+                    <img src="/images/marca/logo-gen.png" alt="Grupo GEN — Desarrollo & Inversión" class="h-11 md:h-13 w-auto">
                 </a>
                 <div class="hidden lg:flex items-center justify-center" id="navbar">
                     <a class="group flex items-center px-5 py-2 text-lg font-medium text-default-800 transition-all hover:text-primary-2"
