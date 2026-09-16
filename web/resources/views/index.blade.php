@@ -34,10 +34,13 @@
                         </a>
                     </div>
                     <!-- Hero Image -->
-                    <div class="overflow-hidden group lg:mt-25 mt-8">
-                        <img alt="Operaciones de Grupo GEN"
-                             class="w-full h-auto object-cover transition-all duration-1000 scale-100 group-hover:scale-105"
-                             src="/images/hero-image.avif"/>
+                    <div class="relative lg:mt-25 mt-8">
+                        <div class="absolute -bottom-4 -right-4 w-full h-full bg-primary-1 [clip-path:polygon(0_0,calc(100%-40px)_0,100%_40px,100%_100%,0_100%)]"></div>
+                        <div class="relative overflow-hidden group shadow-xl [clip-path:polygon(0_0,calc(100%-40px)_0,100%_40px,100%_100%,0_100%)]">
+                            <img alt="Operaciones de Grupo GEN"
+                                 class="w-full h-auto object-cover transition-all duration-1000 scale-100 group-hover:scale-105"
+                                 src="/images/hero-image.avif"/>
+                        </div>
                     </div>
                 </div>
             </div>
