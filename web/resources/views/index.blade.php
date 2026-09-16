@@ -12,13 +12,13 @@
         <div class="container-full relative z-10">
             <div class="grid grid-cols-1 md:grid-cols-2 items-center xl:gap-50 md:gap-12 gap-3.5 lg:mb-20 mb-12.5">
                 <!-- Left Side: Logo -->
-                <div class="flex items-center justify-center md:justify-start">
+                <div class="flex items-center justify-center">
                     <img src="/images/marca/logo-vertical-claro.png" alt="Grupo GEN — Desarrollo & Inversión"
-                         class="w-full max-w-md h-auto">
+                         class="w-full max-w-64 h-auto">
                 </div>
                 <!-- Right Side: Título (bajada) & CTA -->
                 <div class="flex flex-col justify-center mt-8 md:mt-0">
-                    <h1 class="font-bold lg:text-5xl md:text-4xl text-3xl leading-tight tracking-normal text-default-900 mb-6">
+                    <h1 class="lg:text-4xl md:text-3xl text-2xl font-medium leading-tight tracking-normal text-default-600 mb-6">
                         Un holding uruguayo con operaciones reales en minería, energía, forestación,
                         transporte fluvial y bienes raíces, en Uruguay, Paraguay y Argentina.
                     </h1>
