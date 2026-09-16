@@ -42,22 +42,26 @@
                 </div>
             </div>
             <!-- Cifras del grupo -->
-            <div class="grid grid-cols-2 lg:grid-cols-4 lg:gap-8 gap-5">
-                <div>
-                    <span class="block text-3xl font-bold text-default-900">190.000</span>
-                    <span class="text-default-600 text-sm">ha forestales</span>
+            <div class="grid grid-cols-2 lg:grid-cols-4 border border-default-200 divide-y divide-default-200 lg:divide-y-0 lg:divide-x lg:mb-20 mb-12.5">
+                <div class="lg:p-10 p-6">
+                    <span class="block w-10 h-1 bg-primary-1 mb-4"></span>
+                    <span class="block lg:text-5xl text-3xl font-bold text-default-900 mb-1">190.000</span>
+                    <span class="text-default-500 text-sm uppercase tracking-wide">ha forestales</span>
                 </div>
-                <div>
-                    <span class="block text-3xl font-bold text-default-900">3</span>
-                    <span class="text-default-600 text-sm">países</span>
+                <div class="lg:p-10 p-6">
+                    <span class="block w-10 h-1 bg-primary-1 mb-4"></span>
+                    <span class="block lg:text-5xl text-3xl font-bold text-default-900 mb-1">3</span>
+                    <span class="text-default-500 text-sm uppercase tracking-wide">países</span>
                 </div>
-                <div>
-                    <span class="block text-3xl font-bold text-default-900">6</span>
-                    <span class="text-default-600 text-sm">remolcadores</span>
+                <div class="lg:p-10 p-6">
+                    <span class="block w-10 h-1 bg-primary-1 mb-4"></span>
+                    <span class="block lg:text-5xl text-3xl font-bold text-default-900 mb-1">6</span>
+                    <span class="text-default-500 text-sm uppercase tracking-wide">remolcadores</span>
                 </div>
-                <div>
-                    <span class="block text-3xl font-bold text-default-900">+60</span>
-                    <span class="text-default-600 text-sm">años (Vía Confort, 1960)</span>
+                <div class="lg:p-10 p-6">
+                    <span class="block w-10 h-1 bg-primary-1 mb-4"></span>
+                    <span class="block lg:text-5xl text-3xl font-bold text-default-900 mb-1">+60</span>
+                    <span class="text-default-500 text-sm uppercase tracking-wide">años (Vía Confort, 1960)</span>
                 </div>
             </div>
         </div>
