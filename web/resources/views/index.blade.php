@@ -151,7 +151,7 @@
                 </h2>
             </div>
             <!-- Grilla chica -->
-            <div class="flex flex-wrap justify-center gap-3 max-w-3xl mx-auto">
+            <div class="flex flex-wrap justify-center gap-6 max-w-5xl mx-auto">
                 <a class="w-36 p-1.5 bg-linear-to-bl from-primary-1 via-white/90 to-white hover:from-primary-2 flex flex-col group overflow-hidden shadow-md transition-all duration-500"
                    href="#">
                     <div class="bg-white px-2 py-2.5 text-center">
