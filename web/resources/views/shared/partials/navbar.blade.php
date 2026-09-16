@@ -4,7 +4,7 @@
         <div class="container-full lg:py-6 md:py-5 py-2.5">
             <div class="flex items-center gap-25">
                 <a class="flex items-center me-auto" href="{{ url('/') }}">
-                    <img src="/images/marca/logo-gen.png" alt="Grupo GEN — Desarrollo & Inversión" class="h-11 md:h-13 w-auto">
+                    <img src="/images/marca/logo-horizontal-claro.png" alt="Grupo GEN — Desarrollo & Inversión" class="h-11 md:h-13 w-auto">
                 </a>
                 <div class="hidden lg:flex items-center justify-center" id="navbar">
                     <a class="group flex items-center px-5 py-2 text-lg font-medium text-default-800 transition-all hover:text-primary-2"

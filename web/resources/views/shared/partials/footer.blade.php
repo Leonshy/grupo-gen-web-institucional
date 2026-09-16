@@ -8,9 +8,7 @@
                 class="absolute bottom-0 left-1/2 -trandefault-x-1/2 w-full h-64 bg-linear-to-t from-primary/5 to-transparent blur-3xl -z-10"></div>
             <!-- Top Section: Logo -->
             <div class="flex items-center lg:mb-25 mb-7.5">
-                <div class="inline-flex bg-white px-4 py-3">
-                    <img src="/images/marca/logo-gen.png" alt="Grupo GEN — Desarrollo & Inversión" class="h-10 w-auto">
-                </div>
+                <img src="/images/marca/logo-horizontal-oscuro.png" alt="Grupo GEN — Desarrollo & Inversión" class="h-12 w-auto">
             </div>
             <!-- Main Grid -->
             <div
