@@ -33,32 +33,32 @@
                             Ver empresas
                         </a>
                     </div>
-                    <!-- Cifras del grupo -->
-                    <div class="grid grid-cols-2 lg:gap-8 gap-5 lg:mt-25 mt-8">
-                        <div>
-                            <span class="block text-3xl font-bold text-default-900">190.000</span>
-                            <span class="text-default-600 text-sm">ha forestales</span>
-                        </div>
-                        <div>
-                            <span class="block text-3xl font-bold text-default-900">3</span>
-                            <span class="text-default-600 text-sm">países</span>
-                        </div>
-                        <div>
-                            <span class="block text-3xl font-bold text-default-900">6</span>
-                            <span class="text-default-600 text-sm">remolcadores</span>
-                        </div>
-                        <div>
-                            <span class="block text-3xl font-bold text-default-900">+60</span>
-                            <span class="text-default-600 text-sm">años (Vía Confort, 1960)</span>
-                        </div>
+                    <!-- Hero Image -->
+                    <div class="overflow-hidden group lg:mt-25 mt-8">
+                        <img alt="Operaciones de Grupo GEN"
+                             class="w-full h-auto object-cover transition-all duration-1000 scale-100 group-hover:scale-105"
+                             src="/images/hero-image.avif"/>
                     </div>
                 </div>
             </div>
-            <!-- Hero Image -->
-            <div class="overflow-hidden group">
-                <img alt="Operaciones de Grupo GEN"
-                     class="w-full h-auto object-cover transition-all duration-1000 scale-100 group-hover:scale-105"
-                     src="/images/hero-image.avif"/>
+            <!-- Cifras del grupo -->
+            <div class="grid grid-cols-2 lg:grid-cols-4 lg:gap-8 gap-5">
+                <div>
+                    <span class="block text-3xl font-bold text-default-900">190.000</span>
+                    <span class="text-default-600 text-sm">ha forestales</span>
+                </div>
+                <div>
+                    <span class="block text-3xl font-bold text-default-900">3</span>
+                    <span class="text-default-600 text-sm">países</span>
+                </div>
+                <div>
+                    <span class="block text-3xl font-bold text-default-900">6</span>
+                    <span class="text-default-600 text-sm">remolcadores</span>
+                </div>
+                <div>
+                    <span class="block text-3xl font-bold text-default-900">+60</span>
+                    <span class="text-default-600 text-sm">años (Vía Confort, 1960)</span>
+                </div>
             </div>
         </div>
         <!-- Top Blur Decoration -->
