@@ -11,14 +11,11 @@
     <section class="overflow-hidden relative w-full lg:pt-49 md:pt-40 pt-30">
         <div class="container-full relative z-10">
             <div class="grid grid-cols-1 md:grid-cols-2 items-start xl:gap-50 md:gap-12 gap-3.5 lg:mb-20 mb-12.5">
-                <!-- Left Side: Title -->
-                <div>
-                    <h1 class="font-bold lg:text-[90px] md:text-6xl text-[40px] lg:leading-26 tracking-normal text-default-900">
+                <!-- Left Side: Title, Description & CTA -->
+                <div class="flex flex-col">
+                    <h1 class="font-bold lg:text-[90px] md:text-6xl text-[40px] lg:leading-26 tracking-normal text-default-900 mb-5">
                         Grupo GEN — Desarrollo &amp; inversión
                     </h1>
-                </div>
-                <!-- Right Side: Description & Info -->
-                <div class="flex flex-col">
                     <p class="text-default-800 text-lg leading-6 w-full! mb-5">
                         Un holding uruguayo con operaciones reales en minería, energía, forestación,
                         transporte fluvial y bienes raíces, en Uruguay, Paraguay y Argentina.
@@ -33,14 +30,14 @@
                             Ver empresas
                         </a>
                     </div>
-                    <!-- Hero Image -->
-                    <div class="relative lg:mt-25 mt-8">
-                        <div class="absolute -bottom-4 -right-4 w-full h-full bg-primary-1 [clip-path:polygon(0_0,calc(100%-40px)_0,100%_40px,100%_100%,0_100%)]"></div>
-                        <div class="relative overflow-hidden group shadow-xl [clip-path:polygon(0_0,calc(100%-40px)_0,100%_40px,100%_100%,0_100%)]">
-                            <img alt="Operaciones de Grupo GEN"
-                                 class="w-full h-auto object-cover transition-all duration-1000 scale-100 group-hover:scale-105"
-                                 src="/images/hero-image.avif"/>
-                        </div>
+                </div>
+                <!-- Right Side: Hero Image -->
+                <div class="relative mt-8 md:mt-0">
+                    <div class="absolute -bottom-4 -right-4 w-full h-full bg-primary-1 [clip-path:polygon(0_0,calc(100%-40px)_0,100%_40px,100%_100%,0_100%)]"></div>
+                    <div class="relative overflow-hidden group shadow-xl [clip-path:polygon(0_0,calc(100%-40px)_0,100%_40px,100%_100%,0_100%)]">
+                        <img alt="Operaciones de Grupo GEN"
+                             class="w-full h-auto object-cover transition-all duration-1000 scale-100 group-hover:scale-105"
+                             src="/images/hero-image.avif"/>
                     </div>
                 </div>
             </div>
