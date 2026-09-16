@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contacto — Grupo GEN</title>
+<meta name="description" content="Formulario de contacto de Grupo GEN. Sin teléfono ni WhatsApp — el único canal es este formulario, dirigido a info@grupo-gen.com.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Work+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="sistema.css">
+</head>
+<body>
+<div class="board">
+
+  <header class="row">
+    <div class="wordmark">
+      <a href="home.html" class="gen display" style="color:var(--paper)">GEN</a>
+      <span class="tag">Desarrollo &amp; Inversión</span>
+    </div>
+    <nav class="locales" aria-label="Idioma">
+      <a href="#" aria-current="true">ES</a>
+      <a href="/en/contacto">EN</a>
+    </nav>
+  </header>
+
+  <p class="crumb-row"><a href="home.html">Inicio</a><span class="sep">/</span><span class="here">Contacto</span></p>
+
+  <section class="hero" style="padding-bottom:24px">
+    <h1 class="display">Contacto</h1>
+    <p class="sub">Un solo canal, sin ruido</p>
+    <p>Sin teléfono ni WhatsApp publicados. El formulario llega directo a <span class="mono" style="color:var(--paper)">info@grupo-gen.com</span>, y el mensaje queda guardado antes de intentar el envío del correo.</p>
+  </section>
+
+  <form class="form-grid" aria-label="Formulario de contacto" onsubmit="return false">
+    <div class="field">
+      <label for="f-nombre">Nombre y apellido</label>
+      <input id="f-nombre" name="nombre" type="text" required autocomplete="name">
+    </div>
+    <div class="field">
+      <label for="f-empresa">Empresa (opcional)</label>
+      <input id="f-empresa" name="empresa" type="text" autocomplete="organization">
+    </div>
+    <div class="field">
+      <label for="f-email">Correo electrónico</label>
+      <input id="f-email" name="email" type="email" required autocomplete="email">
+    </div>
+    <div class="field">
+      <label for="f-mensaje">Mensaje</label>
+      <textarea id="f-mensaje" name="mensaje" required></textarea>
+    </div>
+    <div class="submit-row">
+      <button class="submit" type="submit">
+        Enviar
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/></svg>
+      </button>
+    </div>
+    <p class="form-note">Estado del campo — vacío / foco / error / enviado — se resuelve con estos mismos estilos base (borde y outline de foco ya definidos) más un mensaje de error o confirmación en esta línea, en Fase 4.</p>
+  </form>
+
+  <dl class="info-rows">
+    <div class="info-row">
+      <dt>Asunción, Paraguay</dt>
+      <dd>Avenida Primer Presidente 3508</dd>
+    </div>
+    <div class="info-row">
+      <dt>Uruguay</dt>
+      <dd class="mono" style="color:var(--paper-faint)">PENDIENTE — dirección exacta y jerarquía frente a Asunción sin confirmar (04-lista-de-insumos-pendientes.md, ítem 11)</dd>
+    </div>
+    <div class="info-row">
+      <dt>LinkedIn</dt>
+      <dd class="mono" style="color:var(--paper-faint)">PENDIENTE — URL del perfil correcto (ítem 10)</dd>
+    </div>
+  </dl>
+
+  <footer>
+    <span>© Grupo GEN — Desarrollo &amp; Inversión</span>
+    <span>Uruguay · Paraguay · Argentina</span>
+    <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+  </footer>
+
+</div>
+</body>
+</html>

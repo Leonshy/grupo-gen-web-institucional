@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grupo GEN — Desarrollo &amp; Inversión</title>
+<meta name="description" content="Holding con operaciones reales en minería, energía, forestación, transporte fluvial y bienes raíces, en Uruguay, Paraguay y Argentina.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Work+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="sistema.css">
+</head>
+<body>
+<!--
+THESIS: Grupo GEN is a live status board of a real holding, not a company
+narrating itself — every empresa, vertical and proyecto is a ruled row
+stating its scale in hard numbers.
+OWN-WORLD: near-black ground, warm-white type, brand green #93c300 reserved
+for the active/current state only; condensed grotesk for words, tabular
+monospace for every cifra; visible ruled seams are the entire grid — no
+cards, no gradients.
+STORY: visitor reads the holding row by row, opens a row into its own ruled
+panel — empresa, vertical or proyecto — with photo, cifras and documento,
+ends at the filtered contact row.
+FIRST VIEWPORT: header row (wordmark, ES/EN), hero row (positioning line),
+ticker row (4 cifras), then the empresas board — ruled rows settling
+split-flap style, each with a status dot and one hard cifra.
+FORM: challenger "rail concourse split-flap board"
+(signals-instruments-split-flap-concourse), fused and raised past assigned
+candidate 4 (cadastral map) on audience identification and product clarity;
+seed 622c6750. Raises: tabular dive-computer digits (mesophotic-deep-dive);
+exposed rule seams as an honesty device (azulejo-station-hall).
+FINISH: unreviewed and undocumented is unfinished; this build ends with the
+finish review, the verdict, DESIGN.md, and every shipping raster carrying
+its provenance.
+-->
+<div class="board">
+
+  <header class="row">
+    <div class="wordmark">
+      <span class="gen display">GEN</span>
+      <span class="tag">Desarrollo &amp; Inversión</span>
+    </div>
+    <nav class="locales" aria-label="Idioma">
+      <a href="#" aria-current="true">ES</a>
+      <a href="/en/">EN</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1 class="display">Grupo GEN</h1>
+    <p class="sub">Desarrollo &amp; inversión</p>
+    <p>Un holding uruguayo con operaciones reales en minería, energía, forestación, transporte fluvial y bienes raíces, en Uruguay, Paraguay y Argentina.</p>
+  </section>
+
+  <ul class="ticker" aria-label="Escala del grupo">
+    <li><span class="val mono">190.000</span><span class="lbl">ha forestales</span></li>
+    <li><span class="val mono">3</span><span class="lbl">países</span></li>
+    <li><span class="val mono">6</span><span class="lbl">remolcadores</span></li>
+    <li><span class="val mono">+60</span><span class="lbl">años (Vía Confort, 1960)</span></li>
+  </ul>
+
+  <div class="section-head">
+    <h2 class="display">Nuestras empresas</h2>
+    <span class="count mono">04</span>
+  </div>
+  <ul class="rowlist co-list">
+    <li>
+      <a class="co-row" href="/empresas/dialeca">
+        <span class="status-dot" data-estado="activo" aria-hidden="true"></span>
+        <span class="co-name display">Dialeca S.A.<small>Minería · Construcción</small></span>
+        <span class="co-sector">Rivera y Durazno, Uruguay</span>
+        <span class="co-fig mono">5.817 ha</span>
+        <svg class="chev" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/></svg>
+      </a>
+    </li>
+    <li>
+      <a class="co-row" href="/empresas/viagen">
+        <span class="status-dot" data-estado="activo" aria-hidden="true"></span>
+        <span class="co-name display">Viagen S.A.<small>Transporte fluvial</small></span>
+        <span class="co-sector">Hidrovía Paraná–Paraguay</span>
+        <span class="co-fig mono">6 remolcadores</span>
+        <svg class="chev" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/></svg>
+      </a>
+    </li>
+    <li>
+      <a class="co-row" href="/empresas/lumiganor">
+        <span class="status-dot" data-estado="activo" aria-hidden="true"></span>
+        <span class="co-name display">Lumiganor S.A.<small>Energía</small></span>
+        <span class="co-sector">Treinta y Tres, Uruguay</span>
+        <span class="co-fig mono">11,4 MW</span>
+        <svg class="chev" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/></svg>
+      </a>
+    </li>
+    <li>
+      <a class="co-row" href="/empresas/via-confort">
+        <span class="status-dot" data-estado="activo" aria-hidden="true"></span>
+        <span class="co-name display">Vía Confort<small>Electrodomésticos</small></span>
+        <span class="co-sector">Montevideo, Uruguay</span>
+        <span class="co-fig mono">Desde 1960</span>
+        <svg class="chev" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/></svg>
+      </a>
+    </li>
+  </ul>
+
+  <div class="section-head">
+    <h2 class="display">Áreas de inversión</h2>
+    <span class="count mono">08</span>
+  </div>
+  <div class="areas">
+    <a class="area-cell" href="/inversiones/forestal">
+      <img src="../assets-sitio-actual/img/inversiones/forestacion.jpg" alt="" loading="lazy">
+      <span class="area-label display">Forestal</span>
+    </a>
+    <a class="area-cell" href="/inversiones/energia">
+      <img src="../assets-sitio-actual/img/inversiones/eolica.jpg" alt="" loading="lazy">
+      <span class="area-label display">Energía</span>
+    </a>
+    <a class="area-cell" href="/inversiones/mineria">
+      <img src="../assets-sitio-actual/img/inversiones/mineria.jpg" alt="" loading="lazy">
+      <span class="area-label display">Minería</span>
+    </a>
+    <a class="area-cell" href="/inversiones/puertos">
+      <img src="../assets-sitio-actual/img/inversiones/puertos.jpg" alt="" loading="lazy">
+      <span class="area-label display">Puertos</span>
+    </a>
+    <a class="area-cell" href="/inversiones/transporte-fluvial">
+      <img src="../assets-sitio-actual/img/inversiones/transporte.jpg" alt="" loading="lazy">
+      <span class="area-label display">Transporte fluvial</span>
+    </a>
+    <a class="area-cell" href="/inversiones/bienes-raices">
+      <img src="../assets-sitio-actual/img/inversiones/bienesraices.jpg" alt="" loading="lazy">
+      <span class="area-label display">Bienes raíces</span>
+    </a>
+    <a class="area-cell" href="/inversiones/construccion">
+      <img src="../assets-sitio-actual/img/inversiones/construccion.jpg" alt="" loading="lazy">
+      <span class="area-label display">Construcción</span>
+    </a>
+    <a class="area-cell" href="/inversiones/electrodomesticos">
+      <img src="../assets-sitio-actual/img/inversiones/electrodomesticos.jpg" alt="" loading="lazy">
+      <span class="area-label display">Electrodomésticos</span>
+    </a>
+  </div>
+
+  <!--
+    Novedades: bloque condicional (docs/01-mapa-del-sitio... §5). Se omite en
+    esta maqueta porque no rompe nada mostrarlo vacío ni lleno — el criterio
+    de visibilidad se implementa en Fase 3 (scope Post::published()->exists()),
+    no es una decisión visual. Cuando haya contenido, entra acá como un
+    section-head "Novedades" + rowlist de 2-3 ítems, mismo lenguaje de fila.
+  -->
+
+  <div class="cta-row">
+    <a href="/inversiones">Ver todas las inversiones <svg class="arrow" width="18" height="18" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/></svg></a>
+    <a href="/contacto">Contacto <svg class="arrow" width="18" height="18" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/></svg></a>
+  </div>
+
+  <footer>
+    <span>© Grupo GEN — Desarrollo &amp; Inversión</span>
+    <span>Uruguay · Paraguay · Argentina</span>
+    <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+  </footer>
+
+</div>
+</body>
+</html>
