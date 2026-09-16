@@ -72,7 +72,8 @@ considera aprobado y el equipo avanza. Va en el contrato.
 - Listado de las sociedades del holding: razón social, país, año, vertical, sitio propio
 - Decisión por escrito sobre qué material deja de ser público (costos por hectárea, precios
   proyectados, resoluciones, padrones, KMZ)
-- Logotipo en vector y sitios de referencia, recibidos del cliente
+- Logotipo recibido en PNG (no hay vector — se revectoriza internamente) y sitios de referencia,
+  recibidos del cliente
 - Motivo de la salida de carbón vegetal y qué se hace con `carbochaco.com`
 
 **Criterio de salida:** alcance y precio cerrados, contrato firmado, acceso al DNS coordinado con
@@ -279,7 +280,6 @@ cargado. Nada de texto de relleno.
 
 | Bloqueo | Fase que traba | Quién lo destraba |
 |---|---|---|
-| Logotipo en vector | 2 | Cliente |
 | Sitios web de referencia | 1 | Cliente |
 | Listado de sociedades del holding | 1 | Cliente |
 | Dónde está alojado el correo `@grupo-gen.com` | 0 | Cliente / Alan Segovia |
@@ -289,4 +289,8 @@ cargado. Nada de texto de relleno.
 | Perfil de LinkedIn correcto | 6 | Cliente |
 | Identificación y autorización de los 7 logos de "empresas con las que trabajamos" | 4 | Cliente |
 
-Los tres primeros son los que hay que pedir hoy: sin ellos la Fase 1 no arranca.
+**Cerrado:** el logo en vector no existe — el cliente confirmó que solo hay PNG (fondo
+transparente, 3040×1540). Se revectoriza internamente en la Fase 2.2, deja de ser un bloqueo
+externo. Ver `docs/05-lista-de-imagenes.md` §0.
+
+Los dos primeros son los que hay que pedir hoy: sin ellos la Fase 1 no arranca.

@@ -10,14 +10,14 @@
 
 ---
 
-## 0. Logo — recibido, falta el vector
+## 0. Logo — cerrado, se trabaja con el PNG
 
 | Ítem | Estado |
 |---|---|
 | Logo en PNG, fondo transparente, alta resolución (3040×1540) | ✅ Recibido |
-| Logo en SVG/AI/EPS (vector real) | 🔴 **Sigue pendiente.** Si existe el original, pedirlo; si no, se revectoriza desde este PNG — la forma es simple (bloque geométrico + tipografía), no debería llevar más de un par de horas |
-| Favicon (recorte cuadrado del isotipo "GEN", sin el texto "Desarrollo & Inversión") | 🟡 Se deriva del vector una vez que exista |
-| Versión monocromática (blanco, para fondos oscuros o fotos) | 🟡 Se deriva del vector |
+| Logo en SVG/AI/EPS (vector real) | ✅ **Cerrado — no existe.** El cliente confirmó que no hay otro archivo. Se revectoriza internamente desde este PNG; la forma es simple (bloque geométrico + tipografía), no debería llevar más de un par de horas. Pasa a tarea interna del equipo, no a pedido al cliente |
+| Favicon (recorte cuadrado del isotipo "GEN", sin el texto "Desarrollo & Inversión") | 🟡 Se deriva del vector una vez producido |
+| Versión monocromática (blanco, para fondos oscuros o fotos) | 🟡 Se deriva del vector una vez producido |
 
 ---
 
@@ -25,7 +25,7 @@
 
 | Imagen | Uso | Cantidad | Estado |
 |---|---|---|---|
-| Logo del grupo | Header + hero | 1 (ver §0) | 🔴 Vector pendiente |
+| Logo del grupo | Header + hero | 1 (ver §0) | ✅ Recibido — vector se produce internamente |
 | Logos de las 4 empresas con ficha completa (Dialeca, Viagen, Lumiganor, Vía Confort) | Franja "Nuestras empresas" | 4 | 🔴 **No relevados en el Anexo A** — el legajo solo lista fotos de proyecto por vertical, no el isotipo de cada empresa participada. Hay que pedirlos uno por uno |
 | Logos de las 7 "empresas con las que trabajamos" | Misma franja, modo `solo_logo` | 7 | 🟡 Depende de identificarlas primero (insumo #6 de la lista de pendientes) |
 | Foto por área de inversión (Forestal, Energía, Minería, Puertos, Transporte fluvial, Bienes raíces, Construcción, Electrodomésticos) | Franja "Áreas de inversión" — una foto representativa por vertical, sin texto encima salvo el nombre | 8 | 🟡 Parcial — ver detalle por vertical en §3. Minería, Bienes raíces, Puertos, Construcción y Transporte fluvial ya tienen fotos relevadas (Anexo A); Forestal solo tiene 1 foto (justo, sirve); Energía y Electrodomésticos no tienen foto propia identificada como "de tapa" |
@@ -112,15 +112,17 @@ en home, ya definido en el plan de Fase 4).
 
 ## Resumen — qué pedir ahora, en orden de impacto
 
-1. **Vector del logo** (SVG/AI/EPS), o autorización para revectorizar el PNG recibido.
-2. **Logos individuales de las 4 empresas** con ficha completa (Dialeca, Viagen, Lumiganor, Vía
+1. **Logos individuales de las 4 empresas** con ficha completa (Dialeca, Viagen, Lumiganor, Vía
    Confort) — hoy no están relevados en ningún lado.
-3. **Curaduría de las fotos existentes por proyecto**, no por vertical — quién en el equipo del
+2. **Curaduría de las fotos existentes por proyecto**, no por vertical — quién en el equipo del
    cliente puede separar "esta foto es de tal proyecto".
-4. **Fotos nuevas para los proyectos sin ninguna** (§5): Etanol Chaco, Depósito fiscal, Lotes
+3. **Fotos nuevas para los proyectos sin ninguna** (§5): Etanol Chaco, Depósito fiscal, Lotes
    Uruguay, Distrito Lambaré, Unidad industrial Cerro Largo, Pueblo de Mar.
-5. **Una foto de tapa para Energía y Electrodomésticos** (franja de áreas de home) — si no hay
+4. **Una foto de tapa para Energía y Electrodomésticos** (franja de áreas de home) — si no hay
    foto propia buena, se resuelve con tratamiento gráfico en vez de foto, mismo criterio del
    manual de marca.
-6. **Los 7 logos de "empresas con las que trabajamos"**, condicionado a que primero se
+5. **Los 7 logos de "empresas con las que trabajamos"**, condicionado a que primero se
    identifiquen (insumo #6 de `04-lista-de-insumos-pendientes.md`).
+
+*(El vector del logo del grupo ya no está en esta lista — el cliente confirmó que no existe, se
+revectoriza internamente desde el PNG recibido, ver §0.)*

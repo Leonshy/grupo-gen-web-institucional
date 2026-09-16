@@ -580,7 +580,7 @@ Hidrovía · 3 países · Vía Confort desde 1960 · 74 locales en el Shopping F
 
 | # | Insumo | Estado | Bloquea |
 |---|---|---|---|
-| 1 | Logotipo en vector (SVG, AI o EPS) | Prometido | Fase 2 |
+| 1 | ~~Logotipo en vector (SVG, AI o EPS)~~ | **Cerrado** — no existe, el cliente entregó PNG (3040×1540, fondo transparente); se revectoriza internamente en Fase 2.2 | — |
 | 2 | 2 o 3 sitios de referencia que le gusten | Prometido | Fase 1 |
 | 3 | Decisión sobre el peso de **agro** en el relato | Pendiente | Fase 1 |
 | 4 | Revisión de las cifras y fechas del contenido actual | Pendiente | Fase 2 |

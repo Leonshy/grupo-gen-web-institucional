@@ -20,10 +20,13 @@
 
 | # | Insumo | Para qué sirve | Si no llega |
 |---|---|---|---|
-| 1 🔴 | **Logotipo en vector** (SVG, AI o EPS) | Es la base del mini manual de marca y el elemento gráfico principal de home y empresas | Se revectoriza desde el PNG actual — pierde precisión y suma horas no presupuestadas |
-| 2 🔴 | **Dónde está alojado el correo `@grupo-gen.com`** (proveedor, panel de control) | Coordinar el cutover de DNS sin cortar el correo del holding | Riesgo real de que el correo del grupo se caiga el día del cambio de sitio |
-| 3 🔴 | **Qué documentos e información no deben seguir siendo públicos** (costos por hectárea, precios de venta proyectados, resoluciones, padrones, KMZ) | Decidir qué contenido se publica, se retira o se reserva | El equipo no puede cerrar la política de contenido de la Fase 0, y por precaución esa información **no se publica** hasta que el cliente decida — puede ser una pérdida de contenido que sí quería mostrar |
-| 4 🔴 | **Decisión sobre la vertical Siderúrgica** (Arrabio Paraguay y Fábrica de hierros): empresa operadora, ubicación, capacidad, estado — o directamente despublicarla | Publicar o no la vertical completa en el lanzamiento | Ya está resuelto por default: **no se publica** en el lanzamiento (ver `03-copy-completo.md` §3 y §4). Se puede agregar después sin tocar código |
+| 1 🔴 | **Dónde está alojado el correo `@grupo-gen.com`** (proveedor, panel de control) | Coordinar el cutover de DNS sin cortar el correo del holding | Riesgo real de que el correo del grupo se caiga el día del cambio de sitio |
+| 2 🔴 | **Qué documentos e información no deben seguir siendo públicos** (costos por hectárea, precios de venta proyectados, resoluciones, padrones, KMZ) | Decidir qué contenido se publica, se retira o se reserva | El equipo no puede cerrar la política de contenido de la Fase 0, y por precaución esa información **no se publica** hasta que el cliente decida — puede ser una pérdida de contenido que sí quería mostrar |
+| 3 🔴 | **Decisión sobre la vertical Siderúrgica** (Arrabio Paraguay y Fábrica de hierros): empresa operadora, ubicación, capacidad, estado — o directamente despublicarla | Publicar o no la vertical completa en el lanzamiento | Ya está resuelto por default: **no se publica** en el lanzamiento (ver `03-copy-completo.md` §3 y §4). Se puede agregar después sin tocar código |
+
+> **Cerrado — logo:** el cliente confirmó que no hay vector; se trabaja con el PNG recibido
+> (3040×1540, fondo transparente) y el equipo lo revectoriza. Sale de esta lista, ver
+> `05-lista-de-imagenes.md` §0.
 
 ---
 
@@ -74,10 +77,11 @@ panel cuando tenga material propio, post-lanzamiento (Anexo B, ítem 13 del lega
 ## Resumen para copiar y pegar en el pedido al cliente
 
 **Urgente (Fase 0/1, sin esto no arrancamos o no cerramos el Hito 1):**
-1. Logo en vector
-2. Dónde está alojado el correo `@grupo-gen.com`
-3. Qué información no debe seguir siendo pública
-4. Decisión sobre la vertical Siderúrgica (o confirmar que queda despublicada)
+1. Dónde está alojado el correo `@grupo-gen.com`
+2. Qué información no debe seguir siendo pública
+3. Decisión sobre la vertical Siderúrgica (o confirmar que queda despublicada)
+
+*(El logo ya se resolvió: se trabaja con el PNG recibido, se revectoriza internamente.)*
 
 **Para completar el Hito 2 (copy y diseño) sin default:**
 5. Listado de sociedades del holding
