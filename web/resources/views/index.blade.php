@@ -14,7 +14,7 @@
                 <!-- Left Side: Logo -->
                 <div class="flex items-center justify-center">
                     <img src="/images/marca/logo-vertical-claro.png" alt="Grupo GEN — Desarrollo & Inversión"
-                         class="w-full max-w-64 h-auto">
+                         class="w-full max-w-md h-auto">
                 </div>
                 <!-- Right Side: Título (bajada) & CTA -->
                 <div class="flex flex-col justify-center mt-8 md:mt-0">
