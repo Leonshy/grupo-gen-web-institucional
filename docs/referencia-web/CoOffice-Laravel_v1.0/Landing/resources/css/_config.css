@@ -1,0 +1,29 @@
+/* Themes Config */
+@theme {
+
+    --font-body: "Source Sans 3", sans-serif;
+    --font-heading: "Public Sans", sans-serif;
+
+    --color-primary: #51ff85;
+    --color-primary-1: #51ff85;
+    --color-primary-2: #e4ff13;
+    --color-primary-3: #f87a41;
+
+    --color-secondary-1: #acffc5;
+    --color-secondary-2: #f3fe97;
+
+    --color-body-bg: var(--color-white);
+    --color-body-color: var(--color-zinc-600);
+
+    --color-default-50: var(--color-zinc-50);
+    --color-default-100: var(--color-zinc-100);
+    --color-default-200: var(--color-zinc-200);
+    --color-default-300: var(--color-zinc-300);
+    --color-default-400: var(--color-zinc-400);
+    --color-default-500: var(--color-zinc-500);
+    --color-default-600: var(--color-zinc-600);
+    --color-default-700: var(--color-zinc-700);
+    --color-default-800: var(--color-zinc-800);
+    --color-default-900: var(--color-zinc-900);
+    --color-default-950: var(--color-zinc-950);
+}

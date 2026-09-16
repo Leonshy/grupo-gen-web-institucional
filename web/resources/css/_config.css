@@ -1,0 +1,38 @@
+/* Grupo GEN — tokens de marca (docs/06-manual-de-marca.md) */
+@theme {
+
+    --font-body: "Hanken Grotesk", sans-serif;
+    --font-heading: "Jost", sans-serif;
+
+    --color-primary: #93c300;      /* verde de marca */
+    --color-primary-1: #93c300;
+    --color-primary-2: #5c7a06;    /* verde profundo — hover, texto sobre blanco */
+    --color-primary-3: #d6a92c;    /* ámbar — estado "en desarrollo" */
+
+    --color-secondary-1: #eef6d8;  /* verde muy claro — fondos de pill/badge */
+    --color-secondary-2: #f5f6f1;  /* gris cálido — fondo de sección alterna */
+
+    --color-body-bg: var(--color-white);
+    --color-body-color: #565a4e;
+
+    --color-default-50: #f5f6f1;
+    --color-default-100: #eceee6;
+    --color-default-200: #e3e5dc;
+    --color-default-300: #c7cabb;
+    --color-default-400: #9a9d8a;
+    --color-default-500: #7b7e6b;
+    --color-default-600: #565a4e;
+    --color-default-700: #40433a;
+    --color-default-800: #2a2c25;
+    --color-default-900: #181a12;
+    --color-default-950: #0f100b;
+
+    --radius-none: 0px;
+    --radius-sm: 0px;
+    --radius-md: 0px;
+    --radius-lg: 0px;
+    --radius-xl: 0px;
+    --radius-2xl: 0px;
+    --radius-3xl: 0px;
+    --radius-full: 0px;   /* el logo no tiene curvas — ver docs/06-manual-de-marca.md */
+}

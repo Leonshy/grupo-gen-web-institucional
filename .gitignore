@@ -1,2 +1,8 @@
 .DS_Store
 .impeccable/
+
+# Referencia visual (proyecto Laravel de terceros) — nunca versionar sus dependencias
+docs/referencia-web/**/vendor/
+docs/referencia-web/**/node_modules/
+docs/referencia-web/**/.env
+docs/referencia-web/**/public/build/
