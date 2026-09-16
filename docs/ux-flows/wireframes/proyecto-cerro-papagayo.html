@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cerro Papagayo — Grupo GEN</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; background:#e0e0e0; padding:24px 0; }
+  .wf-screen { max-width:1180px; margin:0 auto; background:#f5f5f5; border:2px dashed #ccc; }
+  .wf-nav { background:#e8e8e8; border-bottom:1px dashed #ccc; padding:14px 24px; display:flex; align-items:center; justify-content:space-between; }
+  .wf-nav .brand { font-weight:700; color:#444; letter-spacing:1px; text-decoration:none; }
+  .wf-nav .links a { margin-left:20px; font-size:13px; color:#666; text-decoration:none; }
+  .wf-back { padding:14px 24px 0; font-size:13px; }
+  .wf-head { padding:20px 24px 0; }
+  .wf-head h1 { font-size:24px; color:#333; }
+  .wf-tags { display:flex; gap:10px; margin-top:8px; font-size:12px; color:#888; }
+  .wf-tags span { background:#fff; border:1px dashed #ccc; padding:3px 10px; }
+  .wf-layout { display:grid; grid-template-columns:2fr 1fr; gap:0; margin-top:20px; }
+  .wf-main { padding:0 24px 24px; }
+  .wf-photo { background:#ddd; border:1px dashed #bbb; min-height:220px; display:flex; align-items:center; justify-content:center; color:#888; font-size:13px; margin-bottom:16px; }
+  p.copy { font-size:14px; color:#444; line-height:1.6; margin-bottom:12px; }
+  .wf-gallery { display:flex; gap:8px; margin-top:12px; }
+  .wf-gallery div { width:90px; height:60px; background:#ddd; border:1px dashed #bbb; font-size:10px; color:#999; display:flex; align-items:center; justify-content:center; text-align:center; }
+  .wf-side { padding:0 24px 24px 0; }
+  .wf-cifras { display:flex; flex-direction:column; gap:10px; margin-bottom:20px; }
+  .wf-cifra { background:#fff; border:1px dashed #ccc; padding:12px; }
+  .wf-cifra .val { font-size:20px; color:#333; font-weight:700; }
+  .wf-cifra .lbl { font-size:11px; color:#888; }
+  .wf-doc { background:#fff; border:1px dashed #999; padding:12px; font-size:13px; color:#555; margin-bottom:12px; text-decoration:none; display:block; }
+  .wf-map-mini { background:#ddd; border:1px dashed #bbb; height:140px; display:flex; align-items:center; justify-content:center; color:#888; font-size:12px; }
+  .wf-meta { font-size:10px; color:#aaa; text-align:center; padding:10px; border-top:1px dashed #ddd; }
+  a { color:inherit; }
+  .wf-lang { margin-left:20px; font-size:12px; }
+  .wf-lang a { color:#999; text-decoration:none; margin:0 3px; }
+  .wf-lang a.active { color:#444; font-weight:700; }
+</style>
+</head>
+<body>
+<div class="wf-screen">
+  <div class="wf-nav">
+    <a href="home.html" class="brand">GRUPO GEN</a>
+    <div class="links">
+      <a href="home.html">Inicio</a><a href="empresas-index.html">Empresas</a>
+      <a href="inversiones-index.html">Inversiones</a><a href="novedades-index.html">Novedades</a>
+      <a href="contacto.html">Contacto</a>
+      <span class="wf-lang"><a href="#" class="active">ES</a>|<a href="#">EN</a></span>
+    </div>
+  </div>
+  <div class="wf-back"><a href="vertical-mineria.html">&larr; Minería</a></div>
+
+  <div class="wf-head">
+    <h1>Cerro Papagayo</h1>
+    <div class="wf-tags">
+      <span><a href="vertical-mineria.html">Minería</a></span>
+      <span><a href="empresa-dialeca.html">Dialeca S.A.</a></span>
+      <span>Isla Cristalina, Rivera, Uruguay</span>
+      <span>En desarrollo</span>
+    </div>
+  </div>
+
+  <div class="wf-layout">
+    <div class="wf-main">
+      <div class="wf-photo">[foto principal del yacimiento]</div>
+      <p class="copy">Cerro Papagayo es el yacimiento de hierro más relevante de Dialeca S.A., con
+        una reserva probada de 50 millones de toneladas de magnetita y recursos probables que
+        superan los 300 millones. El mineral beneficiado alcanza una ley superior a 65 % de
+        hierro, calidad que habilita su uso directo en la cadena siderúrgica del grupo.</p>
+      <p class="copy">Cerro Papagayo conecta la minería con el resto de las operaciones de GEN: el
+        hierro extraído aquí alimenta el proyecto de arrabio en Paraguay y sale por los puertos
+        propios del grupo sobre la Hidrovía, transportado por Viagen S.A.</p>
+      <div class="wf-gallery">
+        <div>[foto 1]</div><div>[foto 2]</div><div>[foto 3]</div><div>[foto 4]</div>
+      </div>
+    </div>
+    <div class="wf-side">
+      <div class="wf-cifras">
+        <div class="wf-cifra"><div class="val">50 M t</div><div class="lbl">reservas probadas de magnetita</div></div>
+        <div class="wf-cifra"><div class="val">Fe &gt; 65%</div><div class="lbl">ley del mineral beneficiado</div></div>
+        <div class="wf-cifra"><div class="val">350.000 t/año</div><div class="lbl">producción proyectada</div></div>
+      </div>
+      <a href="#" class="wf-doc">[PDF] Informe geológico completo — Cerro Papagayo</a>
+      <div class="wf-map-mini">[mapa de ubicación]</div>
+    </div>
+  </div>
+
+  <div class="wf-meta">Ficha de proyecto — Cerro Papagayo</div>
+</div>
+</body>
+</html>
