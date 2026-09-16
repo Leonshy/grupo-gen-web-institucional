@@ -158,101 +158,67 @@
     </section>
     <section class="lg:py-32.5 md:py-22.5 py-15 bg-default-50">
         <div class="container-full">
-            <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 lg:gap-12 items-stretch">
-                <!-- Left Column -->
-                <div class="flex flex-col justify-between py-4 relative z-10">
-                    <div>
-                        <h2 class="text-4xl md:text-5xl lg:text-[76px] font-semibold text-default-900 md:leading-tight md:mb-7.5 mb-5 w-full!">
-                            Áreas de <br/> inversión
-                        </h2>
-                        <a class="inline-block bg-primary-1 hover:bg-primary-2 text-black font-medium px-5 py-3.5 transition"
-                           href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}">
-                            Ver todas las inversiones
-                        </a>
-                    </div>
-                    <!-- Navigation -->
-                    <div class="flex gap-3 md:mt-12 mt-6 lg:mt-0">
-                        <button
-                            class="swiper-prev size-12.5 flex items-center justify-center bg-white hover:bg-primary-1 hover:brightness-95 transition">
-                            <i class="iconify lucide--arrow-left size-5"></i>
-                        </button>
-                        <button
-                            class="swiper-next size-12.5 flex items-center justify-center bg-white hover:bg-primary-1 transition">
-                            <i class="iconify lucide--arrow-right size-5"></i>
-                        </button>
-                    </div>
+            <div class="flex md:flex-row flex-col md:items-end justify-between gap-6 mb-12.5">
+                <div>
+                    <h2 class="text-4xl md:text-5xl lg:text-[76px] font-semibold text-default-900 leading-tight">
+                        Áreas de inversión
+                    </h2>
+                    <p class="text-default-600 text-lg mt-3">Ocho verticales, tres países.</p>
                 </div>
-                <!-- Right Column: Swiper -->
-                <div class="lg:col-span-2">
-                    <div class="swiper locationSwiper overflow-visible">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="bg-white p-2.5 h-full flex flex-col group cursor-pointer">
-                                    <div class="overflow-hidden aspect-5/5 bg-primary-1 flex items-center justify-center text-black">
-                                        <i class="iconify tabler--tree size-14"></i>
-                                    </div>
-                                    <h3 class="text-2xl font-bold text-default-900 mt-5">Forestal</h3>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="bg-white p-2.5 h-full flex flex-col group cursor-pointer">
-                                    <div class="overflow-hidden aspect-5/5 bg-default-900 flex items-center justify-center text-white">
-                                        <i class="iconify tabler--bolt size-14"></i>
-                                    </div>
-                                    <h3 class="text-2xl font-bold text-default-900 mt-5">Energía</h3>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="bg-white p-2.5 h-full flex flex-col group cursor-pointer">
-                                    <div class="overflow-hidden aspect-5/5 bg-primary-1 flex items-center justify-center text-black">
-                                        <i class="iconify tabler--mountain size-14"></i>
-                                    </div>
-                                    <h3 class="text-2xl font-bold text-default-900 mt-5">Minería</h3>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="bg-white p-2.5 h-full flex flex-col group cursor-pointer">
-                                    <div class="overflow-hidden aspect-5/5 bg-default-900 flex items-center justify-center text-white">
-                                        <i class="iconify tabler--anchor size-14"></i>
-                                    </div>
-                                    <h3 class="text-2xl font-bold text-default-900 mt-5">Puertos</h3>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="bg-white p-2.5 h-full flex flex-col group cursor-pointer">
-                                    <div class="overflow-hidden aspect-5/5 bg-primary-1 flex items-center justify-center text-black">
-                                        <i class="iconify tabler--ship size-14"></i>
-                                    </div>
-                                    <h3 class="text-2xl font-bold text-default-900 mt-5">Transporte fluvial</h3>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="bg-white p-2.5 h-full flex flex-col group cursor-pointer">
-                                    <div class="overflow-hidden aspect-5/5 bg-default-900 flex items-center justify-center text-white">
-                                        <i class="iconify tabler--building-estate size-14"></i>
-                                    </div>
-                                    <h3 class="text-2xl font-bold text-default-900 mt-5">Bienes raíces</h3>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="bg-white p-2.5 h-full flex flex-col group cursor-pointer">
-                                    <div class="overflow-hidden aspect-5/5 bg-primary-1 flex items-center justify-center text-black">
-                                        <i class="iconify tabler--building-warehouse size-14"></i>
-                                    </div>
-                                    <h3 class="text-2xl font-bold text-default-900 mt-5">Construcción</h3>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="bg-white p-2.5 h-full flex flex-col group cursor-pointer">
-                                    <div class="overflow-hidden aspect-5/5 bg-default-900 flex items-center justify-center text-white">
-                                        <i class="iconify tabler--plug size-14"></i>
-                                    </div>
-                                    <h3 class="text-2xl font-bold text-default-900 mt-5">Electrodomésticos</h3>
-                                </div>
-                            </div>
-                        </div>
+                <a class="inline-block bg-primary-1 hover:bg-primary-2 text-black font-medium px-5 py-3.5 transition shrink-0"
+                   href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}">
+                    Ver todas las inversiones
+                </a>
+            </div>
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-5">
+                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="bg-white p-2.5 flex flex-col group shadow-sm hover:shadow-lg transition-shadow">
+                    <div class="overflow-hidden aspect-square bg-primary-1 flex items-center justify-center text-black">
+                        <i class="iconify tabler--tree size-14 transition-transform group-hover:scale-110"></i>
                     </div>
-                </div>
+                    <h3 class="text-xl font-bold text-default-900 mt-4 px-1 pb-2">Forestal</h3>
+                </a>
+                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="bg-white p-2.5 flex flex-col group shadow-sm hover:shadow-lg transition-shadow">
+                    <div class="overflow-hidden aspect-square bg-default-900 flex items-center justify-center text-white">
+                        <i class="iconify tabler--bolt size-14 transition-transform group-hover:scale-110"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-default-900 mt-4 px-1 pb-2">Energía</h3>
+                </a>
+                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="bg-white p-2.5 flex flex-col group shadow-sm hover:shadow-lg transition-shadow">
+                    <div class="overflow-hidden aspect-square bg-primary-1 flex items-center justify-center text-black">
+                        <i class="iconify tabler--mountain size-14 transition-transform group-hover:scale-110"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-default-900 mt-4 px-1 pb-2">Minería</h3>
+                </a>
+                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="bg-white p-2.5 flex flex-col group shadow-sm hover:shadow-lg transition-shadow">
+                    <div class="overflow-hidden aspect-square bg-default-900 flex items-center justify-center text-white">
+                        <i class="iconify tabler--anchor size-14 transition-transform group-hover:scale-110"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-default-900 mt-4 px-1 pb-2">Puertos</h3>
+                </a>
+                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="bg-white p-2.5 flex flex-col group shadow-sm hover:shadow-lg transition-shadow">
+                    <div class="overflow-hidden aspect-square bg-primary-1 flex items-center justify-center text-black">
+                        <i class="iconify tabler--ship size-14 transition-transform group-hover:scale-110"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-default-900 mt-4 px-1 pb-2">Transporte fluvial</h3>
+                </a>
+                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="bg-white p-2.5 flex flex-col group shadow-sm hover:shadow-lg transition-shadow">
+                    <div class="overflow-hidden aspect-square bg-default-900 flex items-center justify-center text-white">
+                        <i class="iconify tabler--building-estate size-14 transition-transform group-hover:scale-110"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-default-900 mt-4 px-1 pb-2">Bienes raíces</h3>
+                </a>
+                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="bg-white p-2.5 flex flex-col group shadow-sm hover:shadow-lg transition-shadow">
+                    <div class="overflow-hidden aspect-square bg-primary-1 flex items-center justify-center text-black">
+                        <i class="iconify tabler--building-warehouse size-14 transition-transform group-hover:scale-110"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-default-900 mt-4 px-1 pb-2">Construcción</h3>
+                </a>
+                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="bg-white p-2.5 flex flex-col group shadow-sm hover:shadow-lg transition-shadow">
+                    <div class="overflow-hidden aspect-square bg-default-900 flex items-center justify-center text-white">
+                        <i class="iconify tabler--plug size-14 transition-transform group-hover:scale-110"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-default-900 mt-4 px-1 pb-2">Electrodomésticos</h3>
+                </a>
             </div>
         </div>
     </section>
