@@ -77,10 +77,76 @@
         </div>
     </section>
     <section class="lg:py-32.5 md:py-22.5 py-15 bg-default-950">
+        <div class="container-full">
+            <div class="flex md:flex-row flex-col md:items-end justify-between gap-6 mb-12.5">
+                <div>
+                    <h2 class="text-4xl md:text-5xl lg:text-[76px] font-semibold text-white leading-tight">
+                        Áreas de inversión
+                    </h2>
+                    <p class="text-default-400 text-lg mt-3">Ocho verticales, tres países.</p>
+                </div>
+                <a class="inline-block bg-primary-1 hover:bg-primary-2 text-black font-medium px-5 py-3.5 transition shrink-0"
+                   href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}">
+                    Ver todas las inversiones
+                </a>
+            </div>
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
+                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="area-card bg-default-900 p-3 flex flex-col group transition-all hover:bg-default-800">
+                    <div class="overflow-hidden aspect-square bg-primary-1 flex items-center justify-center text-black [clip-path:polygon(0_0,calc(100%-24px)_0,100%_24px,100%_100%,0_100%)]">
+                        <i class="iconify tabler--tree size-14 transition-transform group-hover:scale-110"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mt-4 px-1 pb-1">Forestal</h3>
+                </a>
+                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="area-card bg-default-900 p-3 flex flex-col group transition-all hover:bg-default-800">
+                    <div class="overflow-hidden aspect-square bg-white flex items-center justify-center text-default-900 [clip-path:polygon(0_0,calc(100%-24px)_0,100%_24px,100%_100%,0_100%)]">
+                        <i class="iconify tabler--bolt size-14 transition-transform group-hover:scale-110"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mt-4 px-1 pb-1">Energía</h3>
+                </a>
+                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="area-card bg-default-900 p-3 flex flex-col group transition-all hover:bg-default-800">
+                    <div class="overflow-hidden aspect-square bg-primary-1 flex items-center justify-center text-black [clip-path:polygon(0_0,calc(100%-24px)_0,100%_24px,100%_100%,0_100%)]">
+                        <i class="iconify tabler--mountain size-14 transition-transform group-hover:scale-110"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mt-4 px-1 pb-1">Minería</h3>
+                </a>
+                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="area-card bg-default-900 p-3 flex flex-col group transition-all hover:bg-default-800">
+                    <div class="overflow-hidden aspect-square bg-white flex items-center justify-center text-default-900 [clip-path:polygon(0_0,calc(100%-24px)_0,100%_24px,100%_100%,0_100%)]">
+                        <i class="iconify tabler--anchor size-14 transition-transform group-hover:scale-110"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mt-4 px-1 pb-1">Puertos</h3>
+                </a>
+                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="area-card bg-default-900 p-3 flex flex-col group transition-all hover:bg-default-800">
+                    <div class="overflow-hidden aspect-square bg-primary-1 flex items-center justify-center text-black [clip-path:polygon(0_0,calc(100%-24px)_0,100%_24px,100%_100%,0_100%)]">
+                        <i class="iconify tabler--ship size-14 transition-transform group-hover:scale-110"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mt-4 px-1 pb-1">Transporte fluvial</h3>
+                </a>
+                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="area-card bg-default-900 p-3 flex flex-col group transition-all hover:bg-default-800">
+                    <div class="overflow-hidden aspect-square bg-white flex items-center justify-center text-default-900 [clip-path:polygon(0_0,calc(100%-24px)_0,100%_24px,100%_100%,0_100%)]">
+                        <i class="iconify tabler--building-estate size-14 transition-transform group-hover:scale-110"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mt-4 px-1 pb-1">Bienes raíces</h3>
+                </a>
+                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="area-card bg-default-900 p-3 flex flex-col group transition-all hover:bg-default-800">
+                    <div class="overflow-hidden aspect-square bg-primary-1 flex items-center justify-center text-black [clip-path:polygon(0_0,calc(100%-24px)_0,100%_24px,100%_100%,0_100%)]">
+                        <i class="iconify tabler--building-warehouse size-14 transition-transform group-hover:scale-110"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mt-4 px-1 pb-1">Construcción</h3>
+                </a>
+                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="area-card bg-default-900 p-3 flex flex-col group transition-all hover:bg-default-800">
+                    <div class="overflow-hidden aspect-square bg-white flex items-center justify-center text-default-900 [clip-path:polygon(0_0,calc(100%-24px)_0,100%_24px,100%_100%,0_100%)]">
+                        <i class="iconify tabler--plug size-14 transition-transform group-hover:scale-110"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mt-4 px-1 pb-1">Electrodomésticos</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="lg:py-32.5 md:py-22.5 py-15 bg-default-50">
         <div class="container-full relative">
             <!-- Section Title -->
             <div class="text-center lg:mb-16 md:mb-10 mb-2.5">
-                <h2 class="text-4xl md:text-5xl lg:text-[76px] font-semibold text-white">
+                <h2 class="text-4xl md:text-5xl lg:text-[76px] font-semibold text-default-900">
                     Nuestras empresas
                 </h2>
             </div>
@@ -89,7 +155,7 @@
                 <div class="swiper-wrapper">
                     <!-- Dialeca -->
                     <div class="swiper-slide">
-                        <a class="p-2.5 bg-linear-to-bl from-primary-1 via-white/90 to-white hover:from-primary-2 flex flex-col group overflow-hidden transition-all duration-500"
+                        <a class="p-2.5 bg-linear-to-bl from-primary-1 via-white/90 to-white hover:from-primary-2 flex flex-col group overflow-hidden shadow-lg transition-all duration-500"
                            href="#">
                             <div class="bg-white p-5 text-center">
                                 <h3 class="md:text-2xl text-lg font-bold text-black">Dialeca S.A.</h3>
@@ -103,7 +169,7 @@
                     </div>
                     <!-- Viagen -->
                     <div class="swiper-slide">
-                        <a class="p-2.5 bg-linear-to-bl from-primary-1 via-white/90 to-white hover:from-primary-2 flex flex-col group overflow-hidden transition-all duration-500"
+                        <a class="p-2.5 bg-linear-to-bl from-primary-1 via-white/90 to-white hover:from-primary-2 flex flex-col group overflow-hidden shadow-lg transition-all duration-500"
                            href="#">
                             <div class="bg-white p-5 text-center">
                                 <h3 class="md:text-2xl text-lg font-bold text-black">Viagen S.A.</h3>
@@ -117,7 +183,7 @@
                     </div>
                     <!-- Lumiganor -->
                     <div class="swiper-slide">
-                        <a class="p-2.5 bg-linear-to-bl from-primary-1 via-white/90 to-white hover:from-primary-2 flex flex-col group overflow-hidden transition-all duration-500"
+                        <a class="p-2.5 bg-linear-to-bl from-primary-1 via-white/90 to-white hover:from-primary-2 flex flex-col group overflow-hidden shadow-lg transition-all duration-500"
                            href="#">
                             <div class="bg-white p-5 text-center">
                                 <h3 class="md:text-2xl text-lg font-bold text-black">Lumiganor S.A.</h3>
@@ -131,7 +197,7 @@
                     </div>
                     <!-- Vía Confort -->
                     <div class="swiper-slide">
-                        <a class="p-2.5 bg-linear-to-bl from-primary-1 via-white/90 to-white hover:from-primary-2 flex flex-col group overflow-hidden transition-all duration-500"
+                        <a class="p-2.5 bg-linear-to-bl from-primary-1 via-white/90 to-white hover:from-primary-2 flex flex-col group overflow-hidden shadow-lg transition-all duration-500"
                            href="#">
                             <div class="bg-white p-5 text-center">
                                 <h3 class="md:text-2xl text-lg font-bold text-black">Vía Confort</h3>
@@ -146,79 +212,13 @@
                 </div>
                 <!-- Arrows -->
                 <div
-                    class="swiper-button-prev size-12.5 bg-white flex justify-center items-center -translate-x-1/2 after:hidden!">
+                    class="swiper-button-prev size-12.5 bg-white flex justify-center items-center -translate-x-1/2 after:hidden! shadow-md">
                     <i class="iconify lucide--arrow-left text-default-800 size-6"></i>
                 </div>
                 <div
-                    class="swiper-button-next size-12.5 bg-white flex justify-center items-center translate-x-1/2 after:hidden!">
+                    class="swiper-button-next size-12.5 bg-white flex justify-center items-center translate-x-1/2 after:hidden! shadow-md">
                     <i class="iconify lucide--arrow-right text-default-800 size-6"></i>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section class="lg:py-32.5 md:py-22.5 py-15 bg-default-50">
-        <div class="container-full">
-            <div class="flex md:flex-row flex-col md:items-end justify-between gap-6 mb-12.5">
-                <div>
-                    <h2 class="text-4xl md:text-5xl lg:text-[76px] font-semibold text-default-900 leading-tight">
-                        Áreas de inversión
-                    </h2>
-                    <p class="text-default-600 text-lg mt-3">Ocho verticales, tres países.</p>
-                </div>
-                <a class="inline-block bg-primary-1 hover:bg-primary-2 text-black font-medium px-5 py-3.5 transition shrink-0"
-                   href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}">
-                    Ver todas las inversiones
-                </a>
-            </div>
-            <div class="grid grid-cols-2 lg:grid-cols-4 gap-5">
-                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="bg-white p-2.5 flex flex-col group shadow-sm hover:shadow-lg transition-shadow">
-                    <div class="overflow-hidden aspect-square bg-primary-1 flex items-center justify-center text-black">
-                        <i class="iconify tabler--tree size-14 transition-transform group-hover:scale-110"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-default-900 mt-4 px-1 pb-2">Forestal</h3>
-                </a>
-                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="bg-white p-2.5 flex flex-col group shadow-sm hover:shadow-lg transition-shadow">
-                    <div class="overflow-hidden aspect-square bg-default-900 flex items-center justify-center text-white">
-                        <i class="iconify tabler--bolt size-14 transition-transform group-hover:scale-110"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-default-900 mt-4 px-1 pb-2">Energía</h3>
-                </a>
-                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="bg-white p-2.5 flex flex-col group shadow-sm hover:shadow-lg transition-shadow">
-                    <div class="overflow-hidden aspect-square bg-primary-1 flex items-center justify-center text-black">
-                        <i class="iconify tabler--mountain size-14 transition-transform group-hover:scale-110"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-default-900 mt-4 px-1 pb-2">Minería</h3>
-                </a>
-                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="bg-white p-2.5 flex flex-col group shadow-sm hover:shadow-lg transition-shadow">
-                    <div class="overflow-hidden aspect-square bg-default-900 flex items-center justify-center text-white">
-                        <i class="iconify tabler--anchor size-14 transition-transform group-hover:scale-110"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-default-900 mt-4 px-1 pb-2">Puertos</h3>
-                </a>
-                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="bg-white p-2.5 flex flex-col group shadow-sm hover:shadow-lg transition-shadow">
-                    <div class="overflow-hidden aspect-square bg-primary-1 flex items-center justify-center text-black">
-                        <i class="iconify tabler--ship size-14 transition-transform group-hover:scale-110"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-default-900 mt-4 px-1 pb-2">Transporte fluvial</h3>
-                </a>
-                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="bg-white p-2.5 flex flex-col group shadow-sm hover:shadow-lg transition-shadow">
-                    <div class="overflow-hidden aspect-square bg-default-900 flex items-center justify-center text-white">
-                        <i class="iconify tabler--building-estate size-14 transition-transform group-hover:scale-110"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-default-900 mt-4 px-1 pb-2">Bienes raíces</h3>
-                </a>
-                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="bg-white p-2.5 flex flex-col group shadow-sm hover:shadow-lg transition-shadow">
-                    <div class="overflow-hidden aspect-square bg-primary-1 flex items-center justify-center text-black">
-                        <i class="iconify tabler--building-warehouse size-14 transition-transform group-hover:scale-110"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-default-900 mt-4 px-1 pb-2">Construcción</h3>
-                </a>
-                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="bg-white p-2.5 flex flex-col group shadow-sm hover:shadow-lg transition-shadow">
-                    <div class="overflow-hidden aspect-square bg-default-900 flex items-center justify-center text-white">
-                        <i class="iconify tabler--plug size-14 transition-transform group-hover:scale-110"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-default-900 mt-4 px-1 pb-2">Electrodomésticos</h3>
-                </a>
             </div>
         </div>
     </section>
