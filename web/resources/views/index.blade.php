@@ -13,8 +13,9 @@
             <div class="grid grid-cols-1 md:grid-cols-2 items-start xl:gap-50 md:gap-12 gap-3.5 lg:mb-20 mb-12.5">
                 <!-- Left Side: Title, Description & CTA -->
                 <div class="flex flex-col">
-                    <h1 class="font-bold lg:text-[90px] md:text-6xl text-[40px] lg:leading-26 tracking-normal text-default-900 mb-5">
-                        Grupo GEN — Desarrollo &amp; inversión
+                    <h1 class="font-bold tracking-normal text-default-900 mb-5">
+                        <span class="block uppercase lg:text-[90px] md:text-6xl text-[40px] lg:leading-26">Grupo GEN</span>
+                        <span class="block lg:text-4xl md:text-3xl text-2xl font-medium text-default-600 mt-2">Desarrollo &amp; Inversiones</span>
                     </h1>
                     <p class="text-default-800 text-lg leading-6 w-full! mb-5">
                         Un holding uruguayo con operaciones reales en minería, energía, forestación,
