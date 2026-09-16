@@ -43,12 +43,20 @@ completa, y nunca compite consigo mismo en dos tonos distintos a la vez.
 
 | Rol | Fuente | Peso | Uso |
 |---|---|---|---|
-| Títulos / display | **Manrope** | 700–800 | H1–H3, cifras destacadas, nombres de empresa/proyecto en tarjetas. Geométrica y amigable, coherente con el trazo grueso del wordmark del logo. |
+| Títulos / display | **Jost** | 600–800 | H1–H3, cifras destacadas, nombres de empresa/proyecto en tarjetas. |
 | Cuerpo | **Inter** | 400–500 | Párrafos, descripciones, formularios, navegación. |
+
+**Por qué Jost y no Manrope:** el wordmark "GEN" del logo está compuesto en **Moderna Sans**
+(Latinotype) — es una fuente **paga**, no está en Google Fonts ni es de uso libre; usarla sin
+licencia no es una opción. El cliente confirmó no tener la licencia todavía, así que se eligió
+**Jost** como reemplazo gratuito: es geométrica de la misma familia "gothic" que Moderna Sans
+(parientes de Futura / Century Gothic — círculos verdaderos en la O y la G, "a" de un solo piso),
+visualmente muy cercana al trazo del wordmark. **Si el cliente consigue la licencia de Moderna
+Sans más adelante, se reemplaza acá sin tocar el resto del sistema** — es el único punto de cambio.
 
 Se elimina la tipografía monoespaciada como recurso de "dato técnico" — leía como panel de
 control/terminal, no como sitio institucional. Las cifras (190.000 ha, 11,4 MW, etc.) se
-tipografían en Manrope Bold/ExtraBold, simplemente a mayor escala que el texto que las rodea.
+tipografían en Jost Bold/ExtraBold, simplemente a mayor escala que el texto que las rodea.
 
 **Escala:** H1 `clamp(2.25rem, 5vw, 3.5rem)` · H2 `clamp(1.5rem, 3vw, 2.25rem)` · cifra destacada
 `clamp(2rem, 4.5vw, 3rem)` · cuerpo `1rem–1.125rem` · texto chico `0.875rem`.

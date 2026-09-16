@@ -31,7 +31,7 @@ a{ color:inherit; text-decoration:none; }
 img{ max-width:100%; display:block; }
 
 .display{
-  font-family:"Manrope",sans-serif;
+  font-family:"Jost",sans-serif;
   font-weight:800;
   letter-spacing:-0.01em;
 }
@@ -60,9 +60,9 @@ header.site .bar{
   width:38px; height:38px; background:var(--green);
   clip-path: polygon(0 0, 72% 0, 100% 28%, 100% 100%, 0 100%);
   display:flex; align-items:center; justify-content:center;
-  font-family:"Manrope",sans-serif; font-weight:800; color:#fff; font-size:0.95rem;
+  font-family:"Jost",sans-serif; font-weight:800; color:#fff; font-size:0.95rem;
 }
-.brand .name{ font-family:"Manrope",sans-serif; font-weight:800; font-size:1.15rem; color:var(--ink); }
+.brand .name{ font-family:"Jost",sans-serif; font-weight:800; font-size:1.15rem; color:var(--ink); }
 .brand .tag{ font-size:0.78rem; color:var(--ink-soft); margin-left:6px; padding-left:10px; border-left:1px solid var(--line); }
 nav.main{ display:flex; align-items:center; gap:28px; }
 nav.main a{ font-size:0.95rem; color:var(--ink-soft); font-weight:500; }
@@ -116,7 +116,7 @@ nav.locales a[aria-current="true"]{ background:var(--green-soft); color:var(--gr
 /* ===== Buttons ===== */
 .btn{
   display:inline-flex; align-items:center; gap:8px;
-  font-family:"Manrope",sans-serif; font-weight:700; font-size:0.95rem;
+  font-family:"Jost",sans-serif; font-weight:700; font-size:0.95rem;
   padding:13px 24px; border-radius:var(--radius-md);
   transition:background 150ms ease, color 150ms ease, border-color 150ms ease;
 }
@@ -138,7 +138,7 @@ nav.locales a[aria-current="true"]{ background:var(--green-soft); color:var(--gr
 .imgph.tone-ink{ background:var(--ink); }
 .imgph.tone-soft{ background:var(--paper-soft); color:var(--ink-soft); }
 .imgph svg{ width:38%; max-width:64px; height:auto; opacity:0.92; }
-.imgph .lbl{ font-family:"Manrope",sans-serif; font-weight:700; font-size:0.85rem; letter-spacing:0.02em; opacity:0.95; }
+.imgph .lbl{ font-family:"Jost",sans-serif; font-weight:700; font-size:0.85rem; letter-spacing:0.02em; opacity:0.95; }
 .imgph.tone-soft svg{ opacity:0.55; }
 
 /* hero-size placeholder */
@@ -150,7 +150,7 @@ section.band.soft{ background:var(--paper-soft); }
 .band-head{ max-width:1200px; margin:0 auto 32px; display:flex; align-items:flex-end; justify-content:space-between; gap:20px; flex-wrap:wrap; }
 .band-head h2{ margin:0; font-size:clamp(1.5rem,3vw,2.1rem); color:var(--ink); }
 .band-head .sub{ margin:6px 0 0; color:var(--ink-soft); font-size:1rem; max-width:60ch; }
-.band-head .more{ font-family:"Manrope",sans-serif; font-weight:700; font-size:0.9rem; color:var(--green-deep); white-space:nowrap; }
+.band-head .more{ font-family:"Jost",sans-serif; font-weight:700; font-size:0.9rem; color:var(--green-deep); white-space:nowrap; }
 .band-head .more:hover{ text-decoration:underline; }
 
 /* ===== Cards grid (empresas / verticales / proyectos) ===== */
@@ -172,9 +172,9 @@ section.band.soft{ background:var(--paper-soft); }
 a.card:hover, a.card:focus-visible{ transform:translateY(-3px); box-shadow:var(--shadow-lg); }
 .card .imgph{ border-radius:0; }
 .card-body{ padding:20px; display:flex; flex-direction:column; gap:6px; flex:1; }
-.card-body h3{ margin:0; font-size:1.15rem; color:var(--ink); font-family:"Manrope",sans-serif; font-weight:800; }
+.card-body h3{ margin:0; font-size:1.15rem; color:var(--ink); font-family:"Jost",sans-serif; font-weight:800; }
 .card-body .meta{ font-size:0.85rem; color:var(--ink-soft); }
-.card-body .fig{ margin-top:auto; padding-top:12px; font-family:"Manrope",sans-serif; font-weight:800; font-size:1.15rem; color:var(--green-deep); }
+.card-body .fig{ margin-top:auto; padding-top:12px; font-family:"Jost",sans-serif; font-weight:800; font-size:1.15rem; color:var(--green-deep); }
 
 /* status pill */
 .pill{
@@ -192,7 +192,7 @@ a.card:hover, a.card:focus-visible{ transform:translateY(-3px); box-shadow:var(-
 /* ===== Ticker de cifras (claro) ===== */
 .ticker{ max-width:1200px; margin:0 auto; display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:var(--line); border-radius:var(--radius-lg); overflow:hidden; }
 .ticker li{ list-style:none; background:var(--paper); padding:24px; }
-.ticker .val{ display:block; font-family:"Manrope",sans-serif; font-weight:800; font-size:clamp(1.5rem,3vw,2rem); color:var(--ink); }
+.ticker .val{ display:block; font-family:"Jost",sans-serif; font-weight:800; font-size:clamp(1.5rem,3vw,2rem); color:var(--ink); }
 .ticker .lbl{ display:block; margin-top:4px; font-size:0.85rem; color:var(--ink-soft); }
 @media (max-width:640px){ .ticker{ grid-template-columns:repeat(2,1fr); } }
 
