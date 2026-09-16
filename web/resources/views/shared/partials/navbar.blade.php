@@ -25,6 +25,10 @@
                        href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}">
                         Inversiones
                     </a>
+                    <a class="group flex items-center px-5 py-2 text-lg font-medium text-default-800 transition-all hover:text-primary-2"
+                       href="{{ route('second', ['first' => 'contacto', 'second' => 'index']) }}">
+                        Contacto
+                    </a>
                 </div>
                 <div class="flex items-center justify-end gap-5">
                     <!-- Selector de idioma -->
@@ -32,10 +36,6 @@
                         <a class="px-3 py-1.5 bg-default-900 text-white" href="{{ url()->current() }}">ES</a>
                         <a class="px-3 py-1.5 text-default-600 hover:text-primary-2 transition-colors" href="{{ url('/en'.parse_url(url()->current(), PHP_URL_PATH)) }}">EN</a>
                     </div>
-                    <a class="underline text-primary-2 decoration-2 underline-offset-4 flex items-center text-lg transition-all hover:text-default-900 md:flex hidden"
-                       href="{{ route('second', ['first' => 'contacto', 'second' => 'index']) }}">
-                        Contacto
-                    </a>
                     <div class="flex items-center lg:hidden">
                         <button aria-controls="mobile-menu" aria-expanded="false" aria-haspopup="dialog"
                                 class="inline-flex md:size-14 size-10.5 items-center justify-center bg-transparent border border-default-300 text-base font-medium text-default-900 transition-all"
