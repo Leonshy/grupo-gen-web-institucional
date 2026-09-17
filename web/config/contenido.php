@@ -91,6 +91,7 @@ return [
             'nombre' => 'Siderurgia',
             'icon' => 'tabler--flame',
             'color' => 'white',
+            'imagen' => 'inversiones/siderurgia.jpg',
             'resumen' => 'IGP Metales fabrica palanquillas y varillas de acero al carbono en su planta de Villa Hayes, Paraguay, cerrando la cadena de valor del hierro del grupo aguas abajo de la minería de Cerro Papagayo. Los productos cuentan con licencia de uso de la marca ONC de conformidad, otorgada por el INTN, que garantiza el cumplimiento de los requisitos de seguridad estructural de la construcción en Paraguay.',
         ],
         'puertos' => [
