@@ -2,17 +2,17 @@
 
 @section('content')
     @include('shared.partials.navbar')
-    @include('shared.partials.breadcrumb', ['items' => [
-        ['label' => 'Inicio', 'url' => url('/')],
-        ['label' => 'Quiénes somos'],
-    ]])
+    @include('shared.partials.page-hero', [
+        'image' => 'hero/banner-quienes-somos.jpg',
+        'title' => 'Un holding con operaciones reales, no solo participaciones financieras.',
+        'items' => [
+            ['label' => 'Inicio', 'url' => url('/')],
+            ['label' => 'Quiénes somos'],
+        ],
+    ])
 
-    <section class="lg:pt-10 pt-4 lg:pb-24 pb-14">
+    <section class="lg:pt-20 pt-14 lg:pb-24 pb-14">
         <div class="container-full">
-            <h1 class="text-4xl md:text-6xl font-semibold text-default-900 leading-tight max-w-3xl mb-10">
-                Un holding con operaciones reales, no solo participaciones financieras.
-            </h1>
-
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
                 <div class="lg:col-span-2 flex flex-col gap-5 text-lg text-default-600 leading-relaxed">
                     <p>

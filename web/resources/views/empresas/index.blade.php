@@ -6,24 +6,17 @@
 
 @section('content')
     @include('shared.partials.navbar')
-    @include('shared.partials.breadcrumb', ['items' => [
-        ['label' => 'Inicio', 'url' => url('/')],
-        ['label' => 'Empresas'],
-    ]])
+    @include('shared.partials.page-hero', [
+        'image' => 'hero/banner-empresas.jpg',
+        'title' => 'Las empresas del holding',
+        'subtitle' => 'Cinco sociedades con ficha completa, cada una con nombre y responsabilidad propia sobre su sector.',
+        'items' => [
+            ['label' => 'Inicio', 'url' => url('/')],
+            ['label' => 'Empresas'],
+        ],
+    ])
 
-    <section class="lg:pt-10 pt-4 pb-10">
-        <div class="container-full">
-            <h1 class="text-4xl md:text-6xl font-semibold text-default-900 leading-tight max-w-2xl">
-                Las empresas del holding
-            </h1>
-            <p class="text-lg text-default-600 mt-4 max-w-2xl">
-                Cuatro sociedades con ficha completa, cada una con nombre y responsabilidad propia
-                sobre su sector.
-            </p>
-        </div>
-    </section>
-
-    <section class="pb-16 lg:pb-24">
+    <section class="pt-14 lg:pt-20 pb-16 lg:pb-24">
         <div class="container-full">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 @foreach ($empresas as $slug => $empresa)

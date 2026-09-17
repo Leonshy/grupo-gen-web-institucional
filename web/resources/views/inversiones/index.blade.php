@@ -6,22 +6,15 @@
 
 @section('content')
     @include('shared.partials.navbar')
-    @include('shared.partials.breadcrumb', ['items' => [
-        ['label' => 'Inicio', 'url' => url('/')],
-        ['label' => 'Inversiones'],
-    ]])
-
-    <section class="lg:pt-10 pt-4 pb-10">
-        <div class="container-full">
-            <h1 class="text-4xl md:text-6xl font-semibold text-default-900 leading-tight max-w-2xl">
-                Áreas de inversión
-            </h1>
-            <p class="text-lg text-default-600 mt-4 max-w-2xl">
-                Nueve verticales, tres países. Minería, energía, siderurgia, forestación,
-                transporte fluvial, puertos, bienes raíces, construcción y electrodomésticos.
-            </p>
-        </div>
-    </section>
+    @include('shared.partials.page-hero', [
+        'image' => 'hero/banner-inversiones.jpg',
+        'title' => 'Áreas de inversión',
+        'subtitle' => 'Nueve verticales, tres países. Minería, energía, siderurgia, forestación, transporte fluvial, puertos, bienes raíces, construcción y electrodomésticos.',
+        'items' => [
+            ['label' => 'Inicio', 'url' => url('/')],
+            ['label' => 'Inversiones'],
+        ],
+    ])
 
     <section class="bg-default-950 lg:py-20 py-12">
         <div class="container-full">
