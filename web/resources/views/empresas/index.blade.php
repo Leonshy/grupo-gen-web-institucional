@@ -54,15 +54,16 @@
                 <span class="text-default-400 font-mono text-sm">07</span>
             </div>
             <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 border border-default-200 divide-x divide-y md:divide-y-0 divide-default-200">
-                @for ($i = 0; $i < 7; $i++)
-                    <div class="aspect-square flex items-center justify-center p-4 bg-white">
-                        <span class="text-default-300 text-xs text-center uppercase tracking-wide">Logo<br>pendiente de<br>identificar</span>
+                @foreach ([1, 2, 3, 4, 6, 7, 8] as $n)
+                    <div class="aspect-square flex items-center justify-center p-6 bg-white grayscale opacity-70 hover:opacity-100 hover:grayscale-0 transition-all">
+                        <img src="/images/clients/clients-logo{{ $n }}.png" alt="Empresa con la que trabajamos (identificación pendiente)"
+                             class="max-w-full max-h-full object-contain">
                     </div>
-                @endfor
+                @endforeach
             </div>
             <p class="text-default-400 text-sm mt-4 max-w-3xl">
-                Los 7 logos ya están disponibles; falta identificar a qué empresa corresponde cada
-                uno y su autorización de uso antes de publicarlos.
+                Logos extraídos del sitio actual — falta identificar a qué empresa corresponde cada
+                uno y su autorización de uso antes de publicarlos con nombre y link propio.
             </p>
         </div>
     </section>
