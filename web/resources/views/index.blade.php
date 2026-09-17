@@ -7,73 +7,148 @@
 @section('content')
     @include('shared.partials.navbar')
 
-    <!-- Hero Section -->
-    <section class="overflow-hidden relative w-full lg:pt-49 md:pt-40 pt-30">
-        <div class="container-full relative z-10">
-            <div class="grid grid-cols-1 md:grid-cols-2 items-center xl:gap-50 md:gap-12 gap-3.5 lg:mb-20 mb-12.5">
-                <!-- Left Side: Logo -->
-                <div class="flex items-center justify-center">
-                    <img src="/images/marca/logo-vertical-claro.png" alt="Grupo GEN — Desarrollo & Inversión"
-                         class="w-full max-w-md h-auto">
+    {{-- ══════════════ PROPUESTA 1 — Foto a pantalla completa ══════════════ --}}
+    <section class="relative min-h-screen flex flex-col justify-between overflow-hidden bg-default-950">
+        <span class="absolute lg:top-28 top-24 right-6 z-30 bg-primary-3 text-black text-[11px] font-bold uppercase tracking-[0.2em] px-3 py-1.5">Propuesta 1 — Foto full-bleed</span>
+        <img src="/images/hero/hero-mineria.jpg" alt=""
+             class="absolute inset-0 w-full h-full object-cover object-center">
+        <div class="absolute inset-0 bg-gradient-to-r from-black/90 via-black/55 to-black/20"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black/95 via-transparent to-black/30"></div>
+
+        <div class="container-full relative z-10 flex-1 flex items-center lg:pt-32 pt-28 pb-10">
+            <div class="max-w-4xl">
+                <div class="flex items-center gap-4 mb-6">
+                    <span class="block w-14 h-0.5 bg-primary-1"></span>
+                    <span class="text-primary-1 text-xs md:text-sm font-bold uppercase tracking-[0.25em]">
+                        Uruguay · Paraguay · Argentina
+                    </span>
                 </div>
-                <!-- Right Side: Título (bajada) & CTA -->
-                <div class="flex flex-col justify-center mt-8 md:mt-0">
-                    <h1 class="lg:text-4xl md:text-3xl text-2xl font-medium leading-tight tracking-normal text-default-600 mb-6">
-                        Un holding uruguayo con operaciones reales en minería, energía, forestación,
-                        transporte fluvial y bienes raíces, en Uruguay, Paraguay y Argentina.
-                    </h1>
-                    <div class="flex gap-4 flex-wrap">
-                        <a class="inline-block bg-primary-1 hover:bg-primary-2 text-black font-medium py-3.75 px-5 transition-all text-lg"
-                           href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}">
-                            Ver inversiones
-                        </a>
-                        <a class="inline-block border border-default-900 text-default-900 hover:bg-default-900 hover:text-white font-medium py-3.75 px-5 transition-all text-lg"
-                           href="{{ route('second', ['first' => 'empresas', 'second' => 'index']) }}">
-                            Ver empresas
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- Cifras del grupo -->
-            <div class="grid grid-cols-2 lg:grid-cols-4 border border-default-200 divide-y divide-default-200 lg:divide-y-0 lg:divide-x lg:mb-20 mb-12.5">
-                <div class="lg:p-10 p-6">
-                    <span class="block w-10 h-1 bg-primary-1 mb-4"></span>
-                    <span class="block lg:text-5xl text-3xl font-bold text-default-900 mb-1">190.000</span>
-                    <span class="text-default-500 text-sm uppercase tracking-wide">ha forestales</span>
-                </div>
-                <div class="lg:p-10 p-6">
-                    <span class="block w-10 h-1 bg-primary-1 mb-4"></span>
-                    <span class="block lg:text-5xl text-3xl font-bold text-default-900 mb-1">3</span>
-                    <span class="text-default-500 text-sm uppercase tracking-wide">países</span>
-                </div>
-                <div class="lg:p-10 p-6">
-                    <span class="block w-10 h-1 bg-primary-1 mb-4"></span>
-                    <span class="block lg:text-5xl text-3xl font-bold text-default-900 mb-1">6</span>
-                    <span class="text-default-500 text-sm uppercase tracking-wide">remolcadores</span>
-                </div>
-                <div class="lg:p-10 p-6">
-                    <span class="block w-10 h-1 bg-primary-1 mb-4"></span>
-                    <span class="block lg:text-5xl text-3xl font-bold text-default-900 mb-1">+60</span>
-                    <span class="text-default-500 text-sm uppercase tracking-wide">años (Vía Confort, 1960)</span>
+
+                <h1 class="text-white font-semibold leading-[0.95] tracking-tight text-5xl md:text-6xl lg:text-[80px] mb-6">
+                    Un holding uruguayo<br>
+                    con <span class="text-primary-1">operaciones reales.</span>
+                </h1>
+
+                <p class="text-white/65 text-lg md:text-xl max-w-2xl leading-relaxed mb-8">
+                    Minería, energía, forestación, transporte fluvial y bienes raíces,
+                    en Uruguay, Paraguay y Argentina.
+                </p>
+
+                <div class="flex gap-4 flex-wrap">
+                    <a class="inline-block bg-primary-1 hover:bg-white text-black font-semibold py-4 px-7 transition-all text-lg"
+                       href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}">
+                        Ver inversiones
+                    </a>
+                    <a class="inline-flex items-center gap-2 border border-white/40 hover:border-primary-1 hover:text-primary-1 text-white font-semibold py-4 px-7 transition-all text-lg"
+                       href="{{ route('second', ['first' => 'empresas', 'second' => 'index']) }}">
+                        Nuestras empresas
+                        <i class="iconify tabler--arrow-right size-5"></i>
+                    </a>
                 </div>
             </div>
         </div>
-        <!-- Top Blur Decoration -->
-        <div
-            class="absolute inset-x-0 top-0 flex opacity-60 z-0 pointer-events-none h-107.5 [transform:rotateX(-180deg)]">
-            <div
-                class="absolute -top-[10%] left-[-10%] lg:h-125 md:h-100 h-80 lg:w-125 w-80 rounded-full bg-primary-1 blur-[100px]"></div>
-            <div class="absolute inset-y-0 left-[20%] lg:w-[20%] w-[30%] h-[130%] bg-white blur-[50px]"></div>
-            <!-- Middle Yellow/Green Blur -->
-            <div
-                class="absolute -top-[20%] left-[30%] lg:h-150 md:h-100 h-80 lg:w-150 w-80 rounded-full bg-primary-2 blur-[120px]"></div>
-            <div class="absolute inset-y-0 inset-x-0 mx-auto w-[12%] h-[130%] bg-white blur-[50px]"></div>
-            <!-- Top Right Green Blur -->
-            <div
-                class="absolute -top-[10%] right-[20%] lg:h-100 md:h-100 h-80 lg:w-100 w-80 rounded-full bg-primary-1 blur-[100px]"></div>
-            <div class="absolute inset-y-0 right-[20%] w-[12%] h-[130%] bg-white blur-[50px]"></div>
-            <div
-                class="absolute -top-[20%] end-[-20%] lg:h-150 md:h-100 h-80 lg:w-150 w-80 rounded-full bg-primary-2 blur-[120px]"></div>
+
+        <!-- Cifras ancladas al pie del hero -->
+        <div class="relative z-10 border-t border-white/15 bg-black/45 backdrop-blur-sm">
+            <div class="container-full">
+                <div class="grid grid-cols-2 lg:grid-cols-4 lg:divide-x divide-white/15">
+                    <div class="lg:px-8 py-5 lg:py-6">
+                        <span class="block lg:text-4xl text-2xl font-bold text-white leading-none mb-2">190.000</span>
+                        <span class="text-primary-1 text-[11px] md:text-xs uppercase tracking-[0.18em] font-semibold">ha forestales</span>
+                    </div>
+                    <div class="lg:px-8 py-5 lg:py-6">
+                        <span class="block lg:text-4xl text-2xl font-bold text-white leading-none mb-2">50 M t</span>
+                        <span class="text-primary-1 text-[11px] md:text-xs uppercase tracking-[0.18em] font-semibold">reserva de hierro</span>
+                    </div>
+                    <div class="lg:px-8 py-5 lg:py-6">
+                        <span class="block lg:text-4xl text-2xl font-bold text-white leading-none mb-2">11,4 MW</span>
+                        <span class="text-primary-1 text-[11px] md:text-xs uppercase tracking-[0.18em] font-semibold">planta de biomasa</span>
+                    </div>
+                    <div class="lg:px-8 py-5 lg:py-6">
+                        <span class="block lg:text-4xl text-2xl font-bold text-white leading-none mb-2">9</span>
+                        <span class="text-primary-1 text-[11px] md:text-xs uppercase tracking-[0.18em] font-semibold">verticales productivas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{-- ══════════════ PROPUESTA 2 — Mosaico de verticales ══════════════ --}}
+    <section class="relative bg-default-950 overflow-hidden">
+        <span class="absolute top-6 right-6 z-30 bg-primary-3 text-black text-[11px] font-bold uppercase tracking-[0.2em] px-3 py-1.5">Propuesta 2 — Mosaico</span>
+        <!-- Halo verde sutil detrás del mosaico -->
+        <div class="absolute top-0 right-0 lg:size-[600px] size-80 bg-primary-1/15 blur-[140px] pointer-events-none"></div>
+
+        <div class="container-full relative z-10 lg:py-28 py-16">
+            <div class="grid grid-cols-1 lg:grid-cols-12 lg:gap-16 gap-12 items-center">
+
+                <div class="lg:col-span-6">
+                    <div class="flex items-center gap-4 mb-6">
+                        <span class="block w-14 h-0.5 bg-primary-1"></span>
+                        <span class="text-primary-1 text-xs md:text-sm font-bold uppercase tracking-[0.25em]">
+                            Uruguay · Paraguay · Argentina
+                        </span>
+                    </div>
+
+                    <h1 class="text-white font-semibold leading-[0.95] tracking-tight text-5xl md:text-6xl lg:text-[64px] mb-7">
+                        Un holding con <span class="text-primary-1">operaciones reales.</span>
+                    </h1>
+
+                    <p class="text-white/60 text-lg md:text-xl leading-relaxed mb-9 max-w-lg">
+                        Nueve verticales productivas con activos medibles en Uruguay,
+                        Paraguay y Argentina.
+                    </p>
+
+                    <div class="flex gap-4 flex-wrap mb-10">
+                        <a class="inline-block bg-primary-1 hover:bg-white text-black font-semibold py-4 px-7 transition-all text-lg"
+                           href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}">
+                            Ver inversiones
+                        </a>
+                        <a class="inline-flex items-center gap-2 border border-white/40 hover:border-primary-1 hover:text-primary-1 text-white font-semibold py-4 px-7 transition-all text-lg"
+                           href="{{ route('second', ['first' => 'empresas', 'second' => 'index']) }}">
+                            Nuestras empresas
+                            <i class="iconify tabler--arrow-right size-5"></i>
+                        </a>
+                    </div>
+
+                    <div class="flex flex-wrap gap-x-10 gap-y-5 border-t border-white/15 pt-7">
+                        <div>
+                            <span class="block text-3xl font-bold text-white leading-none mb-1.5">190.000</span>
+                            <span class="text-white/45 text-[11px] uppercase tracking-[0.18em] font-semibold">ha forestales</span>
+                        </div>
+                        <div>
+                            <span class="block text-3xl font-bold text-white leading-none mb-1.5">50 M t</span>
+                            <span class="text-white/45 text-[11px] uppercase tracking-[0.18em] font-semibold">reserva de hierro</span>
+                        </div>
+                        <div>
+                            <span class="block text-3xl font-bold text-white leading-none mb-1.5">3</span>
+                            <span class="text-white/45 text-[11px] uppercase tracking-[0.18em] font-semibold">países</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mosaico 3x3, corte diagonal en el bloque entero -->
+                <div class="lg:col-span-6">
+                    <div class="grid grid-cols-3 gap-1.5 [clip-path:polygon(0_0,calc(100%-56px)_0,100%_56px,100%_100%,0_100%)]">
+                        @foreach (config('contenido.verticales') as $slug => $vertical)
+                            <a href="{{ route('second', ['first' => 'inversiones', 'second' => $slug]) }}"
+                               class="group relative aspect-square overflow-hidden bg-default-900">
+                                @if (!empty($vertical['imagen']))
+                                    <img src="/images/{{ $vertical['imagen'] }}" alt="{{ $vertical['nombre'] }}"
+                                         class="absolute inset-0 w-full h-full object-cover opacity-70 transition-all duration-500 group-hover:opacity-100 group-hover:scale-110">
+                                @endif
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent"></div>
+                                <div class="absolute inset-0 ring-1 ring-inset ring-white/0 group-hover:ring-primary-1 transition-all duration-300"></div>
+                                <i class="iconify {{ $vertical['icon'] }} absolute top-3 left-3 text-primary-1 size-5 md:size-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></i>
+                                <span class="absolute bottom-0 inset-x-0 p-3 md:p-4 text-white font-semibold text-xs md:text-sm leading-tight">
+                                    {{ $vertical['nombre'] }}
+                                </span>
+                            </a>
+                        @endforeach
+                    </div>
+                </div>
+
+            </div>
         </div>
     </section>
     <section class="lg:py-32.5 md:py-22.5 py-15 bg-default-950">

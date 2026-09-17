@@ -7,7 +7,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 lg:gap-12 gap-10 lg:pb-14 pb-10 mb-10 border-b border-default-800">
                 <!-- Column 1: Brand -->
                 <div class="flex flex-col gap-5">
-                    <img src="/images/marca/logo-horizontal-oscuro.png" alt="Grupo GEN — Desarrollo & Inversión" class="h-20 w-auto self-start">
+                    <img src="/images/marca/logo-horizontal-oscuro.png" alt="Grupo GEN — Desarrollo & Inversión" class="h-14 w-auto self-start">
                     <p class="text-default-400 text-base leading-relaxed max-w-xs">
                         Holding con operaciones reales en minería, energía, forestación, transporte
                         fluvial y bienes raíces, en Uruguay, Paraguay y Argentina.
