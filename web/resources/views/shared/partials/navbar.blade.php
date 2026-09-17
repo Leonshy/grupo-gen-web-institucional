@@ -7,10 +7,20 @@
                     <img src="/images/marca/logo-horizontal-claro.png" alt="Grupo GEN — Desarrollo & Inversión" class="h-11 md:h-13 w-auto">
                 </a>
                 <div class="hidden lg:flex items-center justify-center" id="navbar">
-                    <a class="group flex items-center px-5 py-2 text-lg font-medium text-default-800 transition-all hover:text-primary-2"
-                       href="{{ url('/') }}">
-                        Inicio
-                    </a>
+                    <div class="hs-dropdown relative inline-flex [--trigger:hover]">
+                        <a class="hs-dropdown-toggle group flex items-center px-5 py-2 text-lg font-medium text-default-800 transition-all hover:text-primary-2"
+                           href="{{ url('/') }}">
+                            Inicio
+                            <i class="iconify tabler--chevron-down size-4 ms-1"></i>
+                        </a>
+                        <div class="hs-dropdown-menu hs-dropdown-open:opacity-100 mt-1 hidden min-w-40 border border-default-200 bg-white p-1.5 opacity-0 shadow-lg transition-[opacity,margin] duration-300 before:absolute before:start-0 before:-top-3 before:h-3 before:w-full after:absolute after:start-0 after:-bottom-3 after:h-3 after:w-full"
+                             role="menu">
+                            <a class="block px-4 py-2 text-base font-medium text-default-700 hover:text-primary-2 hover:bg-default-50 transition-colors"
+                               href="{{ route('home2') }}">
+                                Inicio 2
+                            </a>
+                        </div>
+                    </div>
                     <a class="group flex items-center px-5 py-2 text-lg font-medium text-default-800 transition-all hover:text-primary-2"
                        href="{{ route('second', ['first' => 'grupo', 'second' => 'index']) }}">
                         Quiénes somos
@@ -52,6 +62,10 @@
             <a class="group flex items-center px-5 py-3 text-base font-medium text-default-800 transition-all hover:text-primary-2"
                href="{{ url('/') }}">
                 Inicio
+            </a>
+            <a class="group flex items-center px-8 py-2 text-sm font-medium text-default-500 transition-all hover:text-primary-2"
+               href="{{ route('home2') }}">
+                ↳ Inicio 2
             </a>
             <a class="group flex items-center px-5 py-3 text-base font-medium text-default-800 transition-all hover:text-primary-2"
                href="{{ route('second', ['first' => 'grupo', 'second' => 'index']) }}">

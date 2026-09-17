@@ -8,7 +8,7 @@ class RoutingController extends Controller
 {
     public function root()
     {
-        return view('index');
+        return view('home1');
     }
 
     /**
