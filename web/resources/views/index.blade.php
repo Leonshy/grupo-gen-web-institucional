@@ -83,62 +83,32 @@
                     <h2 class="text-4xl md:text-5xl lg:text-[76px] font-semibold text-white leading-tight">
                         Áreas de inversión
                     </h2>
-                    <p class="text-default-400 text-lg mt-3">Ocho verticales, tres países.</p>
+                    <p class="text-default-400 text-lg mt-3">Nueve verticales, tres países.</p>
                 </div>
                 <a class="inline-block bg-primary-1 hover:bg-primary-2 text-black font-medium px-5 py-3.5 transition shrink-0"
                    href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}">
                     Ver todas las inversiones
                 </a>
             </div>
-            <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
-                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="area-card bg-default-900 p-3 flex flex-col group transition-all hover:bg-default-800">
-                    <div class="overflow-hidden aspect-square bg-primary-1 flex items-center justify-center text-black [clip-path:polygon(0_0,calc(100%-24px)_0,100%_24px,100%_100%,0_100%)]">
-                        <i class="iconify tabler--tree size-14 transition-transform group-hover:scale-110"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-white mt-4 px-1 pb-1">Forestal</h3>
-                </a>
-                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="area-card bg-default-900 p-3 flex flex-col group transition-all hover:bg-default-800">
-                    <div class="overflow-hidden aspect-square bg-white flex items-center justify-center text-default-900 [clip-path:polygon(0_0,calc(100%-24px)_0,100%_24px,100%_100%,0_100%)]">
-                        <i class="iconify tabler--bolt size-14 transition-transform group-hover:scale-110"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-white mt-4 px-1 pb-1">Energía</h3>
-                </a>
-                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="area-card bg-default-900 p-3 flex flex-col group transition-all hover:bg-default-800">
-                    <div class="overflow-hidden aspect-square bg-primary-1 flex items-center justify-center text-black [clip-path:polygon(0_0,calc(100%-24px)_0,100%_24px,100%_100%,0_100%)]">
-                        <i class="iconify tabler--mountain size-14 transition-transform group-hover:scale-110"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-white mt-4 px-1 pb-1">Minería</h3>
-                </a>
-                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="area-card bg-default-900 p-3 flex flex-col group transition-all hover:bg-default-800">
-                    <div class="overflow-hidden aspect-square bg-white flex items-center justify-center text-default-900 [clip-path:polygon(0_0,calc(100%-24px)_0,100%_24px,100%_100%,0_100%)]">
-                        <i class="iconify tabler--anchor size-14 transition-transform group-hover:scale-110"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-white mt-4 px-1 pb-1">Puertos</h3>
-                </a>
-                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="area-card bg-default-900 p-3 flex flex-col group transition-all hover:bg-default-800">
-                    <div class="overflow-hidden aspect-square bg-primary-1 flex items-center justify-center text-black [clip-path:polygon(0_0,calc(100%-24px)_0,100%_24px,100%_100%,0_100%)]">
-                        <i class="iconify tabler--ship size-14 transition-transform group-hover:scale-110"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-white mt-4 px-1 pb-1">Transporte fluvial</h3>
-                </a>
-                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="area-card bg-default-900 p-3 flex flex-col group transition-all hover:bg-default-800">
-                    <div class="overflow-hidden aspect-square bg-white flex items-center justify-center text-default-900 [clip-path:polygon(0_0,calc(100%-24px)_0,100%_24px,100%_100%,0_100%)]">
-                        <i class="iconify tabler--building-estate size-14 transition-transform group-hover:scale-110"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-white mt-4 px-1 pb-1">Bienes raíces</h3>
-                </a>
-                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="area-card bg-default-900 p-3 flex flex-col group transition-all hover:bg-default-800">
-                    <div class="overflow-hidden aspect-square bg-primary-1 flex items-center justify-center text-black [clip-path:polygon(0_0,calc(100%-24px)_0,100%_24px,100%_100%,0_100%)]">
-                        <i class="iconify tabler--building-warehouse size-14 transition-transform group-hover:scale-110"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-white mt-4 px-1 pb-1">Construcción</h3>
-                </a>
-                <a href="{{ route('second', ['first' => 'inversiones', 'second' => 'index']) }}" class="area-card bg-default-900 p-3 flex flex-col group transition-all hover:bg-default-800">
-                    <div class="overflow-hidden aspect-square bg-white flex items-center justify-center text-default-900 [clip-path:polygon(0_0,calc(100%-24px)_0,100%_24px,100%_100%,0_100%)]">
-                        <i class="iconify tabler--plug size-14 transition-transform group-hover:scale-110"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-white mt-4 px-1 pb-1">Electrodomésticos</h3>
-                </a>
+            <div class="grid grid-cols-2 lg:grid-cols-3 gap-6">
+                @foreach (config('contenido.verticales') as $slug => $vertical)
+                    <a href="{{ route('second', ['first' => 'inversiones', 'second' => $slug]) }}"
+                       class="area-card bg-default-900 p-3 flex flex-col group transition-all hover:bg-default-800">
+                        @if (!empty($vertical['imagen']))
+                            <div class="relative overflow-hidden aspect-square [clip-path:polygon(0_0,calc(100%-24px)_0,100%_24px,100%_100%,0_100%)]">
+                                <img src="/images/{{ $vertical['imagen'] }}" alt="{{ $vertical['nombre'] }}"
+                                     class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></div>
+                                <i class="iconify {{ $vertical['icon'] }} absolute top-3 left-3 text-primary-1 size-8"></i>
+                            </div>
+                        @else
+                            <div class="overflow-hidden aspect-square bg-{{ $vertical['color'] }} flex items-center justify-center {{ $vertical['color'] === 'white' ? 'text-default-900' : 'text-black' }} [clip-path:polygon(0_0,calc(100%-24px)_0,100%_24px,100%_100%,0_100%)]">
+                                <i class="iconify {{ $vertical['icon'] }} size-14 transition-transform group-hover:scale-110"></i>
+                            </div>
+                        @endif
+                        <h3 class="text-xl font-bold text-white mt-4 px-1 pb-1">{{ $vertical['nombre'] }}</h3>
+                    </a>
+                @endforeach
             </div>
         </div>
     </section>
@@ -153,7 +123,7 @@
             <!-- Grilla chica -->
             <div class="flex flex-wrap justify-center gap-6 max-w-5xl mx-auto">
                 <a class="w-36 p-1.5 bg-linear-to-bl from-primary-1 via-white/90 to-white hover:from-primary-2 flex flex-col group overflow-hidden shadow-md transition-all duration-500"
-                   href="#">
+                   href="{{ route('second', ['first' => 'empresas', 'second' => 'dialeca']) }}">
                     <div class="bg-white px-2 py-2.5 text-center">
                         <h3 class="text-sm font-bold text-black">Dialeca S.A.</h3>
                         <p class="text-default-600 text-xs mt-0.5">Minería · Construcción</p>
@@ -164,7 +134,7 @@
                     </div>
                 </a>
                 <a class="w-36 p-1.5 bg-linear-to-bl from-primary-1 via-white/90 to-white hover:from-primary-2 flex flex-col group overflow-hidden shadow-md transition-all duration-500"
-                   href="#">
+                   href="{{ route('second', ['first' => 'empresas', 'second' => 'viagen']) }}">
                     <div class="bg-white px-2 py-2.5 text-center">
                         <h3 class="text-sm font-bold text-black">Viagen S.A.</h3>
                         <p class="text-default-600 text-xs mt-0.5">Transporte fluvial</p>
@@ -175,7 +145,7 @@
                     </div>
                 </a>
                 <a class="w-36 p-1.5 bg-linear-to-bl from-primary-1 via-white/90 to-white hover:from-primary-2 flex flex-col group overflow-hidden shadow-md transition-all duration-500"
-                   href="#">
+                   href="{{ route('second', ['first' => 'empresas', 'second' => 'lumiganor']) }}">
                     <div class="bg-white px-2 py-2.5 text-center">
                         <h3 class="text-sm font-bold text-black">Lumiganor S.A.</h3>
                         <p class="text-default-600 text-xs mt-0.5">Energía</p>
@@ -186,7 +156,7 @@
                     </div>
                 </a>
                 <a class="w-36 p-1.5 bg-linear-to-bl from-primary-1 via-white/90 to-white hover:from-primary-2 flex flex-col group overflow-hidden shadow-md transition-all duration-500"
-                   href="#">
+                   href="{{ route('second', ['first' => 'empresas', 'second' => 'via-confort']) }}">
                     <div class="bg-white px-2 py-2.5 text-center">
                         <h3 class="text-sm font-bold text-black">Vía Confort</h3>
                         <p class="text-default-600 text-xs mt-0.5">Electrodomésticos</p>
@@ -194,6 +164,17 @@
                     <div class="relative aspect-square overflow-hidden bg-primary-1 flex flex-col items-center justify-center gap-1 text-black">
                         <i class="iconify tabler--plug size-7"></i>
                         <span class="font-bold text-xs">Desde 1960</span>
+                    </div>
+                </a>
+                <a class="w-36 p-1.5 bg-linear-to-bl from-primary-1 via-white/90 to-white hover:from-primary-2 flex flex-col group overflow-hidden shadow-md transition-all duration-500"
+                   href="{{ route('second', ['first' => 'empresas', 'second' => 'igp-metales']) }}">
+                    <div class="bg-white px-2 py-2.5 text-center">
+                        <h3 class="text-sm font-bold text-black">IGP Metales</h3>
+                        <p class="text-default-600 text-xs mt-0.5">Siderurgia</p>
+                    </div>
+                    <div class="relative aspect-square overflow-hidden bg-default-900 flex flex-col items-center justify-center gap-1 text-white">
+                        <i class="iconify tabler--flame size-7"></i>
+                        <span class="font-bold text-xs">Villa Hayes, PY</span>
                     </div>
                 </a>
             </div>

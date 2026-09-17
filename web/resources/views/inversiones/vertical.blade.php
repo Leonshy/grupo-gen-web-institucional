@@ -19,9 +19,17 @@
                         {{ $vertical['resumen'] }}
                     </p>
                 </div>
-                <div class="aspect-square bg-default-950 flex items-center justify-center text-primary-1 [clip-path:polygon(0_0,calc(100%-32px)_0,100%_32px,100%_100%,0_100%)]">
-                    <i class="iconify {{ $vertical['icon'] }} size-20"></i>
-                </div>
+                @if (!empty($vertical['imagen']))
+                    <div class="relative aspect-square overflow-hidden [clip-path:polygon(0_0,calc(100%-32px)_0,100%_32px,100%_100%,0_100%)]">
+                        <img src="/images/{{ $vertical['imagen'] }}" alt="{{ $vertical['nombre'] }}" class="absolute inset-0 w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                        <i class="iconify {{ $vertical['icon'] }} absolute bottom-4 left-4 text-primary-1 size-10"></i>
+                    </div>
+                @else
+                    <div class="aspect-square bg-default-950 flex items-center justify-center text-primary-1 [clip-path:polygon(0_0,calc(100%-32px)_0,100%_32px,100%_100%,0_100%)]">
+                        <i class="iconify {{ $vertical['icon'] }} size-20"></i>
+                    </div>
+                @endif
             </div>
         </div>
     </section>

@@ -53,7 +53,7 @@
                        class="block border border-default-200 hover:border-primary-1 p-6 transition-colors group">
                         <i class="iconify tabler--chart-arrows text-primary-2 size-8 mb-3"></i>
                         <h3 class="text-lg font-bold text-default-900 group-hover:text-primary-2 transition-colors">Áreas de inversión</h3>
-                        <p class="text-default-500 text-sm mt-1">Ocho verticales, tres países</p>
+                        <p class="text-default-500 text-sm mt-1">Nueve verticales, tres países</p>
                     </a>
                 </div>
             </div>

@@ -52,6 +52,17 @@ return [
             'icon' => 'tabler--plug',
             'cifra' => ['valor' => 'Desde 1960', 'label' => 'en el mercado'],
         ],
+        'igp-metales' => [
+            'nombre' => 'IGP Metales',
+            'sector' => 'Siderurgia',
+            'pais' => 'Paraguay',
+            'verticales' => ['siderurgica'],
+            'descripcion' => 'IGP Metales (Industrias Globales Paraguayas) opera una planta industrial en Villa Hayes, Paraguay, y fabrica productos de acero al carbono: palanquillas, varillas lisas y varillas de construcción nervuradas. Es la empresa que cierra la cadena de valor del hierro del grupo, aguas abajo de la minería de Dialeca S.A. en Cerro Papagayo.',
+            'razon_social' => 'IGP Metales (Industrias Globales Paraguayas)',
+            'sitio_propio' => 'igp.com.py',
+            'icon' => 'tabler--flame',
+            'cifra' => ['valor' => 'ONC/INTN', 'label' => 'certificación de conformidad'],
+        ],
     ],
 
     'verticales' => [
@@ -59,48 +70,62 @@ return [
             'nombre' => 'Forestal',
             'icon' => 'tabler--tree',
             'color' => 'primary-1',
+            'imagen' => 'inversiones/forestacion.jpg',
             'resumen' => 'El grupo desarrolla plantaciones forestales en el Chaco paraguayo, con 190.000 hectáreas distribuidas entre los distritos de Bahía Negra, Fuerte Olimpo, Mariscal Estigarribia, Filadelfia, Eugenio Garay, Lagerenza y Colonia Teniente Pico. Es la vertical de mayor superficie del holding y la base territorial de la que dependen otros desarrollos de la región, como los puertos de Bahía Negra y Villeta y la logística fluvial de Viagen S.A.',
         ],
         'energia' => [
             'nombre' => 'Energía',
             'icon' => 'tabler--bolt',
             'color' => 'white',
+            'imagen' => 'inversiones/eolica.jpg',
             'resumen' => 'El grupo opera la planta de biomasa ELTT (Lumiganor S.A.) en Treinta y Tres, Uruguay, con 11,4 MW de potencia instalada a partir de residuos forestales, y evalúa un proyecto de etanol en el Chaco paraguayo sobre 20.000 hectáreas de caña de azúcar. Dos escalas de la misma apuesta: generación consolidada en Uruguay y un desarrollo agroindustrial en etapa de estudio en Paraguay.',
         ],
         'mineria' => [
             'nombre' => 'Minería',
             'icon' => 'tabler--mountain',
             'color' => 'primary-1',
+            'imagen' => 'inversiones/mineria.jpg',
             'resumen' => 'Dialeca S.A. opera siete concesiones mineras sobre más de 5.800 hectáreas en Rivera y Durazno, Uruguay. El activo central es Cerro Papagayo, una reserva de hierro que integra toda la cadena: extracción, beneficiamiento, arrabio en Paraguay y salida propia por los puertos del grupo sobre la Hidrovía.',
+        ],
+        'siderurgica' => [
+            'nombre' => 'Siderurgia',
+            'icon' => 'tabler--flame',
+            'color' => 'white',
+            'resumen' => 'IGP Metales fabrica palanquillas y varillas de acero al carbono en su planta de Villa Hayes, Paraguay, cerrando la cadena de valor del hierro del grupo aguas abajo de la minería de Cerro Papagayo. Los productos cuentan con licencia de uso de la marca ONC de conformidad, otorgada por el INTN, que garantiza el cumplimiento de los requisitos de seguridad estructural de la construcción en Paraguay.',
         ],
         'puertos' => [
             'nombre' => 'Puertos',
             'icon' => 'tabler--anchor',
-            'color' => 'white',
+            'color' => 'primary-1',
+            'imagen' => 'inversiones/puertos.jpg',
             'resumen' => 'Grupo GEN opera dos puertos propios sobre la Hidrovía Paraná-Paraguay: Puerto Bahía Negra y Puerto Villeta. Son la salida logística de la producción forestal, minera y agroindustrial del grupo en Paraguay, y el nexo con la flota fluvial de Viagen S.A. Su ubicación sobre uno de los corredores de carga más activos de Sudamérica es un activo diferencial del holding en la región.',
         ],
         'transporte-fluvial' => [
             'nombre' => 'Transporte fluvial',
             'icon' => 'tabler--ship',
             'color' => 'primary-1',
+            'imagen' => 'inversiones/transporte.jpg',
             'resumen' => 'Viagen S.A. opera seis remolcadores, tres barcazas y una grúa sobre la Hidrovía Paraná-Paraguay, conectando los puertos propios del grupo en Bahía Negra y Villeta con las rutas comerciales de la región. Es la vertical logística que integra la producción del resto del holding.',
         ],
         'bienes-raices' => [
             'nombre' => 'Bienes raíces',
             'icon' => 'tabler--building-estate',
             'color' => 'white',
+            'imagen' => 'inversiones/bienesraices.jpg',
             'resumen' => 'La cartera inmobiliaria del grupo incluye desarrollos residenciales en la costa uruguaya como Jardines de Acuario y los fraccionamientos de El Terruño en Treinta y Tres, Tacuarembó y Melo, además de activos comerciales e industriales como los shoppings de Fernando de la Mora y San Nicolás, un depósito fiscal, lotes en Uruguay y una unidad industrial en Cerro Largo. Es la vertical con más proyectos individuales del holding.',
         ],
         'construccion' => [
             'nombre' => 'Construcción',
             'icon' => 'tabler--building-warehouse',
             'color' => 'primary-1',
+            'imagen' => 'inversiones/construccion.jpg',
             'resumen' => 'Dialeca S.A. presta servicios de agrimensura, ingeniería civil e hidráulica y urbanismo, la misma empresa que opera las concesiones mineras del grupo en Rivera y Durazno. La combinación de minería y construcción bajo una sola sociedad refleja cómo Grupo GEN integra capacidades técnicas entre verticales en lugar de tercerizarlas.',
         ],
         'electrodomesticos' => [
             'nombre' => 'Electrodomésticos',
             'icon' => 'tabler--plug',
-            'color' => 'white',
+            'color' => 'primary-1',
+            'imagen' => 'inversiones/electrodomesticos.jpg',
             'resumen' => 'Vía Confort comercializa electrodomésticos y equipamiento para el hogar en cuatro sucursales de Montevideo desde 1960. Es la vertical de contacto directo con el consumidor final dentro de un grupo cuyo perfil es, en el resto de sus verticales, industrial y de infraestructura.',
         ],
     ],
@@ -150,6 +175,20 @@ return [
             'descripcion' => [
                 'Pueblo Centenario es el proyecto de piedra partida del grupo, dentro del mismo esquema de concesiones mineras que opera Dialeca S.A. en Uruguay.',
             ],
+        ],
+
+        // Siderurgia
+        'planta-igp-villa-hayes' => [
+            'nombre' => 'Planta industrial IGP — Villa Hayes',
+            'vertical' => 'siderurgica',
+            'empresa' => 'igp-metales',
+            'ubicacion' => 'Ruta PY09 Km 37.5, Zona Industrial, Villa Hayes, Paraguay',
+            'estado' => 'En operación',
+            'descripcion' => [
+                'IGP Metales (Industrias Globales Paraguayas) opera su planta industrial sobre la Ruta PY09, en la zona industrial de Villa Hayes, Paraguay, donde fabrica palanquillas y varillas de acero al carbono 1035: varillas lisas y varillas de construcción nervuradas para la industria de la construcción paraguaya.',
+                'Es el eslabón siderúrgico de la cadena del hierro del grupo, aguas abajo de la minería de Dialeca S.A. en Cerro Papagayo, Uruguay. Sus productos cuentan con licencia de uso de la marca ONC de conformidad, otorgada por el Instituto Nacional de Tecnología, Normalización y Metrología (INTN), que certifica el cumplimiento de los requisitos de seguridad estructural exigidos por la normativa de construcción paraguaya.',
+            ],
+            'documentos' => ['Licencia de uso de marca ONC de conformidad (INTN)'],
         ],
 
         // Energía
